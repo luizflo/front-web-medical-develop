@@ -326,7 +326,6 @@ export default function Home({
         message={feedBack.feedBack}
       />
       <Grid item xs={12} md={8}>
-        <Banner />
         <Box
           sx={{
             display: "flex",

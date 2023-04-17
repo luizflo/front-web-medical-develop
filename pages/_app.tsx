@@ -75,7 +75,7 @@ class MyApp extends App {
                   LoginPage={Login}
                 >
                   <Head>
-                    <title>Hausey | Portal</title>
+                    <title>Plataforma | Portal</title>
                     <meta
                       name="viewport"
                       content="width=device-width, initial-scale=1.0"

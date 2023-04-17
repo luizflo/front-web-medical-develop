@@ -3,13 +3,13 @@ import { useRouterContext, TitleProps } from '@pankod/refine-core'
 import { Button, Grid, Typography } from '@pankod/refine-mui'
 import iconUser from '../../../../public/images/menu/user.png'
 import iconMedal from '../../../../public/images/menu/medal.svg'
-import Logo from 'public/hauseyLogo.svg'
+import Logo from "public/Logodefault.svg";
 
-import Image from 'next/image'
-import styles from './title.module.scss'
+import Image from "next/image";
+import styles from "./title.module.scss";
 
 export const Title: React.FC<TitleProps> = ({ collapsed }) => {
-  const { Link } = useRouterContext()
+  const { Link } = useRouterContext();
 
   return (
     <Grid>
@@ -17,13 +17,13 @@ export const Title: React.FC<TitleProps> = ({ collapsed }) => {
         fullWidth
         variant="text"
         disableRipple
-        style={{ justifyContent: 'initial', padding: '20px' }}
+        style={{ justifyContent: "initial", padding: "20px" }}
       >
         <Link href="/">
           {collapsed ? (
             <Image src="/hauseyLogoSmall.png" alt="Refine" width={28} />
           ) : (
-            <Logo alt="hausey" width="140px" />
+            <Logo alt="logo" width="90px" height="50px" />
           )}
         </Link>
       </Button>
@@ -37,5 +37,5 @@ export const Title: React.FC<TitleProps> = ({ collapsed }) => {
         </Grid>
       ) : ""} */}
     </Grid>
-  )
-}
+  );
+};

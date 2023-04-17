@@ -3,10 +3,7 @@ import Image from 'next/image'
 //telas do paciente
 import login from '../../pages/patient/login'
 import homePage from '../../pages/patient/homePage'
-import historic from '../../pages/patient/historic'
-import myExams from '../../pages/patient/myExams'
-import myForms from "pages/patient/myForms";
-import myPrograms from "pages/patient/myPrograms";
+import historic from "../../pages/patient/historic";
 
 //telas da secretária
 import Professionals from "../../pages/secretary/professionals";
@@ -84,24 +81,6 @@ export default function returnRoute(roleUser: any) {
       },
       list: historic,
       icon: [<HistoricIconDisable />, <HistoricIcon />],
-    },
-    {
-      name: "forms",
-      options: {
-        label: "Meus questionários",
-        hide: roleUser === "patient" ? false : true,
-      },
-      list: myForms,
-      icon: [<QuestIconDisable />, <QuestIcon />],
-    },
-    {
-      name: "programs",
-      options: {
-        label: "Meus programas",
-        hide: roleUser === "patient" ? false : true,
-      },
-      list: myPrograms,
-      icon: [<IconProgramDisabled />, <IconProgram />],
     },
     // {
     //   name: 'exams',

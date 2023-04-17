@@ -138,35 +138,19 @@ export default function InputEmail({ handlerClick }: any) {
           {errorMessage}
         </Alert>
       </Snackbar>
-      <Grid xs={12} md={6} item className={styles.imgContainer}>
-        {/* <Image alt="no-alt" src={Logo} className={styles.logo} /> */}
-        <></>
-      </Grid>
-      <Grid xs={12} md={6} item className={styles.content}>
-        <div className={styles.rowLogin}>
-          <Typography className={styles.textLogin}>
-            Já tem uma conta?{" "}
-          </Typography>
-          <a
-            // href="/patient/createAccount"
-            onClick={() => router.push("/login")}
-            style={{
-              color: "#0074e5",
-              fontWeight: 600,
-              fontSize: 14,
-              cursor: "pointer",
-              paddingLeft: 5,
-            }}
-          >
-            Faça login
-          </a>
-        </div>
+      <Grid
+        xs={12}
+        md={12}
+        item
+        // className={styles.content}
+        sx={{ alignItems: "center", paddingInline: "8vw", paddingTop: "10vh" }}
+      >
         <Typography
           variant="subtitle1"
           fontWeight={"bold"}
           className={styles.title}
         >
-          Criar conta
+          Agendar consulta
         </Typography>
         <Formik
           initialValues={initialValues}
@@ -278,11 +262,12 @@ export default function InputEmail({ handlerClick }: any) {
             <Button
               variant="contained"
               disableElevation
-              type="submit"
+              // type="submit"
+              onClick={() => router.replace("/patient/schedule")}
               size="large"
               className={styles.button}
             >
-              {isLoading ? <CircularProgress color="inherit" /> : "Criar conta"}
+              {isLoading ? <CircularProgress color="inherit" /> : "Próximo"}
             </Button>
           </Form>
         </Formik>
