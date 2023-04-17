@@ -1,0 +1,107 @@
+@import '@styles/app.scss';
+
+.box {
+  position: 'fixed';
+  top: '64px';
+  left: '0px';
+  border-radius: '0 6px 6px 0';
+  background-color: 'secondary.main';
+  z-index: 1199;
+  width: '36px';
+}
+
+.box2 {
+  height: 64;
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+}
+
+.box3 {
+  height: 64;
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+}
+
+.button {
+  background: 'rgba(0,0,0,.5)';
+  color: 'primary.contrastText';
+  text-align: 'center';
+  border-radius: 0;
+  border-top: '1px solid #ffffff1a';
+}
+
+.footerText {
+  position: absolute;
+  bottom: 0;
+}
+
+.heightMenu {
+  height: 98%;
+  overflow-y: hidden;
+}
+
+.hr {
+  height: 2px;
+  background-color: $grey-light;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.IconColor {
+  color: $grey-medium;
+  font-size: 20px;
+}
+
+.linkExternal {
+  color: $grey;
+}
+
+.boxPlan {
+  background-color: $black;
+  color: white;
+  margin: 10px 20px;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+
+.buttonBlue {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 0 !important;
+  justify-content: center;
+}
+
+.textButtonConfirm {
+  color: $white;
+  font-weight: 700 !important;
+  padding: 3px !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+.textButtonConfirm:hover,
+.buttonBlue:hover {
+  background-color: $blue-dark;
+}
+
+.txtPlan {
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  width: 80%;
+  line-height: 25px !important;
+  margin-bottom: 0 !important;
+}
+
+.txtBody {
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  margin-bottom: 0 !important;
+  margin-top: 10px !important;
+}

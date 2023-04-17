@@ -1,0 +1,33 @@
+$background-color: rgb(92, 240, 6);
+$text-color: #0223dd;
+$color-primary: #d60000;
+$yellow: #ffcc00;
+$yellow-light: #ffe580;
+$black: #1e1e1e;
+$white: #ffff;
+$grey: #848d9f;
+$grey-light: #dadee5;
+$grey-medium: #848d9f;
+$blue: #0074e5;
+$blue-light: #d9e5f0;
+$red: #ff4545;
+$green: #0db564;
+
+$grid-columns: 12;
+$grid-gutter-width: 3rem;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$font: 'Nunito';
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);

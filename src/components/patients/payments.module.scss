@@ -1,0 +1,335 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  // padding-inline: 335px;
+  height: max-content;
+  // min-height: 241px;
+  // background-color: white;
+  background-color: $white;
+  // grid-column: span 12;
+  // text-align: center;
+  // @include breakpoint('md') {
+  //   grid-column: 3 / 11;
+  // }
+  // @include breakpoint('xl') {
+  //   grid-column: 4 / 10;
+  // }
+}
+
+.grid {
+  display: flex;
+  background-color: $white;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-inline: 335px;
+  padding-bottom: 15px;
+}
+.textBlue {
+  color: $blue;
+}
+
+.gridContent {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  background-color: $white;
+  padding-inline: 335px;
+  // align-items: center;
+  // align-content: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.logoCard {
+  height: 10px;
+  margin-left: 5px;
+}
+
+.icon {
+  height: 30px;
+}
+
+.progressDiv {
+  width: 100%;
+  height: 4px;
+  background-color: $grey-light;
+}
+
+.progressBar {
+  width: 30%;
+  height: 4px;
+  background-color: $green;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.select {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.body {
+  font-size: 16px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: $grey;
+}
+
+.dayText {
+  font-size: 20px;
+  color: $black;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.buttonHour {
+  margin-inline: 12px;
+  color: $black;
+}
+
+.callout {
+  background-color: $blue-light;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.buttonForward {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  cursor: pointer;
+  background-color: $blue;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  align-self: flex-end;
+}
+
+.author {
+  font-size: 2.2rem;
+  font-weight: lighter;
+  letter-spacing: 0.05rem;
+  text-transform: lowercase;
+
+  a {
+    color: $text-color;
+    font-style: italic;
+  }
+}
+
+.text {
+  font-size: 16px;
+  color: $black;
+  font-weight: 700;
+}
+
+.subtext {
+  font-size: 16px;
+  color: $grey;
+  font-weight: 500;
+  margin-top: -20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.attachButton {
+  font-size: 16px;
+  color: $blue;
+  font-weight: 600;
+}
+
+.line {
+  height: 1px;
+  margin-top: 10px;
+  background-color: $grey-light;
+}
+
+.paymentButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1.5px solid $grey-light;
+  // border-color: $grey;
+  border-radius: 8px;
+  padding-inline: 30px;
+  background-color: $white;
+  height: 100px;
+}
+
+.textButtonConfirm {
+  font-size: 16px;
+  color: $white;
+  font-weight: 700;
+}
+
+.buttonConfirm {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  align-items: center;
+  cursor: pointer;
+  padding-block: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.textCard {
+  color: $grey;
+  font-size: 15px;
+  margin: 0 !important;
+}
+
+.creditCard {
+  background-color: #ebe9f0;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hr {
+  height: 2px;
+  background-color: #b1b8cb66;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.labelText {
+  font-size: 15px;
+  color: $grey;
+  margin-top: 10px;
+  margin-bottom: 5px !important;
+}
+
+.spaceHorizontal {
+  margin-right: 15px;
+}
+
+// lib
+
+.App-payment {
+  padding: 30px;
+}
+
+.form-actions {
+  margin-top: 15px;
+}
+
+.App-cards {
+  margin: 0 auto;
+  max-width: 1280px;
+  text-align: center;
+}
+
+.App-cards-list {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.App-cards-list > * {
+  transform: scale(0.8);
+  margin-bottom: 30px !important;
+}
+
+.App-highlight {
+  font-family: serif;
+  margin: 15px auto 0;
+  max-width: 300px;
+}
+
+.App-highlight > div {
+  padding-left: 40px;
+}
+
+.App-badges {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-badges a {
+  display: block;
+}
+
+.App-badges a + a {
+  margin-top: 18px;
+}
+
+.github__btn {
+  align-items: center;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #444;
+  display: flex;
+  line-height: 1;
+  padding: 8px 12px;
+}
+
+.github__btn:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+.github__btn img {
+  display: inline-block;
+  height: 28px;
+  margin-right: 8px;
+}
+
+.App-credits {
+  background-color: #000;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+
+.App-credits a {
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+  .App-badges {
+    flex-direction: row;
+  }
+
+  .App-badges a + a {
+    margin-top: 0;
+    margin-left: 18px;
+  }
+}

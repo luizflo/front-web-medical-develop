@@ -1,0 +1,18 @@
+.room {
+  display: flex;
+  // padding-inline: 30px;
+  background-color: $blue-light;
+  // width: 70vw;
+  // justify-content: center;
+  height: 90vh;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-y: hidden;
+}
+.localParticipant {
+  // margin-left: 40px;
+  background-color: aqua;
+}
+.remoteParticpant {
+  background-color: blueviolet;
+}

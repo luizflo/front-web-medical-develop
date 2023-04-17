@@ -1,0 +1,72 @@
+@import '@styles/app.scss';
+
+.inputContainer {
+  padding-block: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  border: 1px solid $grey-light;
+  font-size: 16px;
+  color: $black;
+  margin-top: 0px;
+}
+.inputStyle {
+  margin-left: 15px;
+  padding-right: 20px;
+  border: none;
+  font-size: 16px;
+  color: $black;
+  margin-top: 0px;
+}
+.inputContainer:focus-within {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+.inputStyle:focus {
+  outline: none !important;
+}
+.inputStyle::placeholder {
+  color: $grey;
+}
+
+.boxInput {
+  display: flex;
+  flex-direction: column;
+}
+.inputTitle {
+  font-size: 16px;
+  color: $grey;
+  margin-bottom: 5px !important;
+  margin-top: 10px !important;
+}
+.iconImage {
+  // height: 50px;
+  // width: 50px;
+  // margin-top: 10px;
+  z-index: 5;
+}
+.imageDiv {
+  // margin-right: -40px;
+  padding-top: 5px !important;
+  margin-left: 20px;
+  position: absolute;
+}
+.inputField {
+  border: none;
+}
+.inputField:focus {
+  outline: none !important;
+  height: 100%;
+}
+.inputRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+.error {
+  color: $red;
+}

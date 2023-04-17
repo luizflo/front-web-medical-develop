@@ -1,0 +1,384 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex !important;
+  flex-direction: column !important;
+  padding-left: 130px !important;
+  padding-right: 40px !important;
+  padding-top: 30px !important;
+}
+
+.container {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.containerRow {
+  width: 100% !important;
+  display: flex !important;
+}
+
+.iconReturn {
+  font-size: 30px !important;
+}
+
+.title {
+  font-weight: 700 !important;
+  color: $black !important;
+  font-size: 35px !important;
+}
+
+.imgContainer {
+  height: 100vh !important;
+  background-image: url('../../../public/bg_createAccount.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: calc(100vw + 48px) !important;
+}
+
+.logo {
+  height: 60px !important;
+  // position: absolute
+}
+
+.logoCenter {
+  height: 40px !important;
+  align-items: center !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+  justify-content: space-between !important;
+}
+
+.rowSimple {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+}
+
+.rowCollumn {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+  flex-direction: column !important;
+  width: 100% !important;
+}
+
+.rowInput {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+}
+
+.rowInputAdress {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+  max-width: 91% !important;
+}
+
+.subtitle {
+  font-size: 14px !important;
+  color: $grey !important;
+}
+
+.inputTitle {
+  font-size: 16px !important;
+  color: $grey !important;
+  margin-bottom: 5px !important;
+  margin-top: 20px !important;
+}
+
+.inputCupom {
+  padding-block: 20px !important;
+  padding-inline: 20px !important;
+  border-radius: 8px !important;
+  width: 85% !important;
+  border: 1px solid $grey-light !important;
+  font-size: 16px !important;
+  color: $black !important;
+  margin-top: 0px !important;
+}
+
+.inputBlue {
+  padding-block: 20px !important;
+  padding-inline: 20px !important;
+  border-radius: 8px !important;
+  width: 85% !important;
+  border: 1px solid $blue !important;
+  font-size: 16px !important;
+  color: $black !important;
+}
+
+.inputCupom:focus {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+
+.inputCupom::placeholder {
+  color: $grey !important;
+  font-size: 16px !important;
+  font-family: 'Nunito' !important;
+}
+
+.button {
+  margin-top: 30px !important;
+  width: 85% !important;
+  height: 60px !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+}
+
+.iconEye {
+  margin-left: -40px !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+  color: $grey !important;
+}
+
+.forgotPassword {
+  font-size: 14px !important;
+  color: $blue !important;
+  margin-bottom: 0px !important;
+  margin-top: 8px !important;
+  font-weight: 600 !important;
+  align-self: flex-end !important;
+}
+
+.forgotButton {
+  align-self: flex-end !important;
+  margin-right: 95px !important;
+  cursor: pointer !important;
+}
+
+.loginGoogleButton {
+  margin-top: 10px !important;
+  width: 85% !important;
+  height: 60px !important;
+  border-radius: 8px !important;
+  border-width: 1.5px !important;
+  font-size: 14px !important;
+  color: $black !important;
+  font-weight: 700 !important;
+  align-items: center !important;
+  border: 1px solid #dadee6 !important;
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 8px !important;
+}
+
+.line {
+  background-color: $grey-light !important;
+  height: 1px !important;
+  max-width: 85% !important;
+  margin-top: 40px !important;
+}
+
+.subtitle {
+  font-size: 20px !important;
+  color: $grey !important;
+  width: 85% !important;
+}
+
+.iconReturn {
+  margin: 40px 0 !important;
+}
+
+.warning {
+  color: $grey-medium !important;
+  font-size: 12px !important;
+  margin-top: 10px !important;
+}
+
+.rowTerms {
+  display: flex !important;
+}
+
+.textTerms {
+  font-size: 12px !important;
+  margin-top: 18px !important;
+}
+
+.textNotification {
+  font-size: 12px !important;
+  margin-top: 10px !important;
+}
+
+.link {
+  font-size: 20px !important;
+  color: $blue !important;
+  margin-left: 2px !important;
+}
+
+.linkTerms {
+  font-size: 12px !important;
+  margin-top: 18px !important;
+  color: $blue !important;
+  margin-left: 2px !important;
+}
+
+.rowLogin {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin-bottom: 20px !important;
+}
+
+.textLogin {
+  font-size: 14px !important;
+  margin-top: 18px !important;
+}
+
+.linkLogin {
+  font-size: 14px !important;
+  margin-top: 18px !important;
+  color: $blue !important;
+  margin-left: 2px !important;
+}
+
+.fontInstructions {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  text-align: center !important;
+  max-width: 1000px !important;
+  color: $grey-medium !important;
+  margin-bottom: 0px !important;
+}
+
+.textLater {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  display: flex !important;
+  align-items: center !important;
+  color: $grey-medium !important;
+}
+
+.buttonSmall {
+  max-width: 300px !important;
+  margin-top: 30px !important;
+  height: 60px !important;
+  padding: 5px 100px !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+}
+
+.alignCircleButton {
+  text-align: flex-end !important;
+  max-width: 85% !important;
+  margin-top: 100px !important;
+}
+
+.buttonCircle {
+  margin-top: 30px !important;
+  border-radius: 50% !important;
+  padding: 10px !important;
+  font-size: 14px !important;
+  background-color: $blue !important;
+  width: fit-content !important;
+}
+
+.buttonRounded {
+  margin-top: 30px !important;
+  border-radius: 50px !important;
+  padding: 5px 20px !important;
+  font-size: 14px !important;
+  background-color: $blue !important;
+  width: fit-content !important;
+}
+
+.rowTopRight {
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding: 20px !important;
+  width: 80% !important;
+}
+
+.progressDiv {
+  width: 100% !important;
+  height: 4px !important;
+  background-color: $grey-light !important;
+}
+
+.progressBar {
+  width: 30% !important;
+  height: 4px !important;
+  background-color: $green !important;
+}
+
+.header {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.grid {
+  display: flex !important;
+  background-color: $white !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  align-content: center !important;
+  padding-top: 15px !important;
+  padding-inline: 335px !important;
+  padding-bottom: 15px !important;
+}
+
+.center {
+  justify-content: center !important;
+}
+
+.content {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+  height: max-content !important;
+  margin-top: 0px !important;
+  background-color: $white !important;
+}
+
+.marginTopFirsty {
+  margin-top: 50px !important;
+}
+
+.buttonGroup {
+  width: 100% !important;
+  box-shadow: none !important;
+}
+
+.buttonGroupItem {
+  margin-top: 30px !important;
+  width: 85% !important;
+  height: 60px !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  box-sizing: border-box !important;
+  background: #ffffff !important;
+  color: $grey-medium !important;
+  border: 1.5px solid #dadee6 !important;
+  border-radius: 8px !important;
+  justify-content: flex-start !important;
+}
+
+.logoGender {
+  height: 20px !important;
+  margin-right: 10px !important;
+}
+
+.buttonGroupItem:hover {
+  color: $white !important;
+}
+
+.marginTop {
+  margin-top: 70px !important;
+}

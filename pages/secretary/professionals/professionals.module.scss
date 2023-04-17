@@ -1,0 +1,515 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: max-content;
+}
+
+.grid {
+  padding: 30px;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0 !important;
+}
+
+
+.titleName {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-bottom: 0 !important;
+}
+
+.subtitle {
+  color: $grey-medium;
+  font-family: 'Nunito';
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+
+.container {
+  display: block;
+}
+
+.containerModal {
+  display: block;
+  margin: 30px;
+  margin-top: -60px;
+}
+
+.hr {
+  height: 1.5px;
+  background-color: #b1b8cb66;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.borderRight {
+  border-right: #b1b8cb66 1.5px solid;
+}
+
+.alignCenter {
+  justify-content: center;
+  display: flex;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.rowSpace {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.end {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.firsty {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0;
+}
+
+.buttonBlue {
+  display: flex;
+  border-radius: 8px !important;
+  cursor: pointer;
+  padding-block: 15px !important;
+  width: fit-content;
+  margin-right: 0 !important;
+}
+
+.buttonBlueWidth {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 15px;
+  justify-content: center;
+  width: 100%;
+  margin-right: 0 !important;
+  font-size: 20px;
+}
+
+.gridScale {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+
+.textButtonConfirm {
+  color: $white;
+  font-weight: 700;
+  padding: 0 40px;
+  margin-bottom: 0px !important;
+}
+
+.textButtonScala {
+  color: $white;
+  font-weight: 700;
+  padding: 0 40px;
+  font-size: 15px;
+}
+
+.textButtonScala:hover,
+.buttonBlueWidth:hover,
+.buttonBlue:hover {
+  background-color: $blue-dark;
+}
+
+.center {
+  text-align: center;
+}
+
+.textDayOfMonth {
+  font-size: 12px;
+  color: $grey;
+  margin: 0px !important;
+}
+
+.textDay {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px !important;
+}
+
+.hourBlue {
+  color: $blue;
+  background-color: $blue-light;
+  margin: 5px 15px;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 13px;
+}
+
+.circle {
+  background-color: $blue-light;
+  border-radius: 50%;
+  padding: 5px;
+  justify-self: center;
+  font-size: 20px;
+  height: 25px;
+  width: 25px;
+
+  color: $blue;
+}
+
+.circle:hover {
+  background-color: $grey-medium;
+  cursor: pointer;
+}
+
+.hourRisked {
+  color: $grey;
+  padding: 3px;
+  text-decoration: line-through;
+  font-size: 13px;
+  margin: 5px 15px;
+}
+
+.hourNormal {
+  color: $grey;
+  margin: 5px 15px;
+
+  padding: 3px;
+  font-size: 13px;
+}
+
+.textHour {
+  color: $grey;
+  font-size: 13px !important;
+  margin-top: 1.25px !important;
+}
+
+
+.hourNotBusy {
+  margin: 1px;
+  height: 20px;
+  max-width: 75%;
+  background-color: $grey-light;
+  color: $grey-light !important;
+  cursor: pointer;
+}
+
+.hourNotBusy:hover {
+  background-color: #f0f0f0;
+  color: #f0f0f0 !important;
+}
+
+.hourBusy {
+  background-color: $blue;
+  color: $blue;
+  margin: 1px;
+  height: 20px;
+  max-width: 75%;
+  cursor: pointer;
+}
+
+.hourBusy:hover {
+  background-color: #2a96ff;
+  color: #2a96ff;
+}
+
+.textHour2 {
+  font-size: 13px;
+  margin: 0px 2px !important;
+}
+
+.inputBase {
+  padding: 5px;
+  padding-left: 10px;
+  width: '100%';
+}
+
+.headerMenu {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: $black;
+  border: none;
+}
+
+.cellName {
+  font-size: 16px;
+}
+
+.cellLink {
+  font-size: 14px;
+  color: $blue;
+}
+
+.modal {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px !important;
+  max-height: 96vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.titleModal {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-bottom: 0 !important;
+}
+
+
+
+.containerCRM:focus-within {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+
+
+.rowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+.exit {
+  cursor: pointer;
+  font-size: 20px !important;
+  color: $grey;
+}
+
+.bgTop {
+  background-color: #d9e5f0;
+  height: 150px;
+}
+
+.userRound {
+  border: 5px solid white !important;
+  border-radius: 50%;
+}
+
+.titleModal {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.subtitleModal {
+  font-size: 18px;
+  line-height: 25px;
+  color: $grey;
+}
+
+.tag {
+  padding: 1px 10px;
+  width: fit-content;
+  top: 64px;
+  background: #d9e5f0;
+  border-radius: 8px;
+  color: $blue;
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+.rowButtonBack {
+  display: flex;
+  align-items: center;
+  max-height: fit-content;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.label {
+  font-size: 16px;
+  color: $grey;
+  margin-top: 3rem;
+  margin-bottom: 0 !important;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.boldBlue {
+  color: $blue;
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.textPages {
+  margin-bottom: 0px !important;
+  margin-left: 5px !important;
+  font-size: 12px;
+  font-weight: 500;
+  color: $grey;
+}
+
+.cardTag {
+  font-size: 12px;
+  font-weight: 700;
+  background-color: $blue-light;
+  padding-inline: 15px;
+  color: $blue;
+  padding-block: 1px;
+  margin-right: 8px !important;
+  border-radius: 8px;
+  margin-bottom: 0px !important;
+}
+.cardMemed {
+  font-size: 12px;
+  font-weight: 700;
+  color: $blue;
+  padding-block: 1px;
+  margin-right: 8px !important;
+  border-radius: 8px;
+  margin-bottom: 0px !important;
+}
+
+.marginLeft {
+  margin-left: 10px;
+}
+
+.marginTop {
+  margin-top: 15px !important;
+  color: $grey;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.textTitle2 {
+  margin-bottom: 0px !important;
+}
+
+.textTitle3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 10px !important;
+  margin-right: 70px !important;
+  margin-bottom: 0px !important;
+}
+
+
+.textBlue {
+  color: $blue;
+  font-size: 14px;
+  margin-bottom: 0px !important;
+}
+
+
+.marginTop2 {
+  margin-top: 50px;
+}
+
+.spaceTop {
+  height: 25px;
+  margin-top: 50px;
+}
+
+.block {
+  display: flex;
+}
+
+.boxHistory {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-block: 18px;
+  margin-top: 15px;
+}
+
+.rowButtonBack:hover {
+  text-decoration: underline;
+}
+.textGrey {
+  color: $grey;
+  margin-bottom: 0px !important;
+}
+.textBlack {
+  color: $black;
+  margin-bottom: 0px !important;
+}
+.textBlue {
+  color: $blue;
+  margin-bottom: 0px !important;
+}
+.arrow {
+  font-size: 20px;
+  font-weight: 700;
+}
+.historyListItem {
+  display: flex;
+  align-items: center;
+  padding-block: 20px;
+  cursor: pointer;
+  border-top: 1px solid $grey-light !important;
+}
+.historyList {
+  overflow-y: scroll;
+  max-height: 80vh;
+  padding-bottom: 50px;
+}
+
+.bgTop {
+  background-color: #d9e5f0;
+  height: 100px;
+}
+.containerModal {
+  display: block;
+  margin: 30px;
+  margin-top: 20px;
+}
+.selectOption {
+  background-color: white;
+}
+.selectOption:focus {
+  background-color: #2a96ff;
+}
+.boxNotes {
+  border: 1px solid $grey-light;
+  border-radius: 5px;
+  padding: 10px;
+  height: 25vh;
+}

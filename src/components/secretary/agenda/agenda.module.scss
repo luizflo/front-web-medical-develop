@@ -1,0 +1,240 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: max-content;
+}
+
+.title {
+  font-weight: 800;
+  color: $black;
+  font-size: 25px;
+  margin-bottom: 0px !important;
+}
+.subtitle {
+  font-size: 16px;
+  color: $grey-medium;
+}
+.pageTitleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardPurple {
+  padding: 30px;
+  background-color: #9bb1fe;
+  border-radius: 10px;
+  margin: 20px;
+  color: white;
+}
+
+.menuBar {
+  background-color: white;
+}
+
+.container {
+  display: block;
+  padding-inline: 20px;
+}
+
+.cardConsult {
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 2px #d3d3d3;
+  margin: 10px;
+  padding: 20px;
+}
+
+.textConsult {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: $black;
+}
+
+.textdetails {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: $grey-medium;
+  margin: 0 !important;
+}
+.titleSection {
+  font-weight: 800;
+  color: $black;
+  font-size: 18px;
+  margin-bottom: 0px !important;
+}
+
+.textLinkDetails {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: $blue;
+  margin: 0 !important;
+  margin-top: 10px !important;
+}
+
+.hr {
+  height: 2px;
+  background-color: #b1b8cb66;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.textInfo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  color: $grey-medium;
+  margin-top: 10px;
+  max-width: 300px;
+}
+
+.textButtonConfirm {
+  font-size: 16px;
+  color: $white;
+  font-weight: 700;
+}
+
+.buttonConfirm {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  align-items: center;
+  cursor: pointer;
+  padding-block: 10px;
+  justify-content: center;
+}
+
+.buttonSchedule {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 10px;
+  width: fit-content;
+}
+
+.alignCenter {
+  justify-content: center;
+  display: flex;
+}
+
+.textCard {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: $black;
+  margin-bottom: 0 !important;
+}
+
+.textRespond {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: $blue;
+  margin: 0 !important;
+}
+
+.gridRight {
+  padding: 0px;
+  padding-right: 20px;
+  background-color: blueviolet;
+}
+.gridLeft {
+  padding: 0px;
+  background-color: white;
+}
+
+.alignRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleWhite {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.subtitleWhite {
+  font-size: 18px;
+}
+
+.logoCalendar {
+  width: 100%;
+  max-width: 300px;
+}
+
+.rowSpace {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.cardBooking {
+  background-color: white;
+  padding-block: 10px;
+  border-radius: 8px;
+  padding-inline-end: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.textHour {
+  font-weight: 700;
+  color: $black;
+  font-size: 18px;
+  padding-left: 15px;
+  margin-bottom: 0px !important;
+}
+.textDate {
+  font-weight: 700;
+  color: $grey;
+  font-size: 14px;
+  margin-bottom: 2px !important;
+  margin-top: 15px;
+}
+.titleEventCard {
+  font-weight: 800;
+  color: $black;
+  font-size: 14px;
+  margin-bottom: 0px !important;
+}
+.subTitleEventCard {
+  font-weight: 500;
+  color: $grey;
+  font-size: 14px;
+  margin-bottom: 0px !important;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.buttonEventList {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 10px;
+  width: fit-content;
+}
+.buttonEventList:hover {
+  box-shadow: 0px 0px 6px 1px #d3d3d3;
+}
+.textButtonEventList {
+  font-size: 14px;
+  color: $white;
+  font-weight: 700;
+}
+.divider {
+  height: 60px;
+  width: 4px;
+  background-color: $yellow;
+  margin-inline: 15px;
+}

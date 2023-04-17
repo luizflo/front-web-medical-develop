@@ -1,0 +1,175 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: max-content;
+}
+
+.title {
+  font-weight: 700 !important;
+  color: $black;
+  font-size: 40px !important;
+  margin-top: 30px !important;
+  margin-bottom: 0 !important;
+}
+.bgTop {
+  background-color: #d9e5f0;
+  height: 100px;
+}
+.containerModal {
+  display: block;
+  margin: 30px;
+  margin-top: 20px;
+}
+.row {
+  display: flex !important;
+  align-items: center !important;
+}
+.IconBlue {
+  margin-right: 5px !important;
+}
+.boxNotes {
+  border: 1px solid $grey-light;
+  border-radius: 5px;
+  padding: 10px;
+  height: 25vh;
+}
+.subtitle {
+  color: $grey-medium !important;
+  font-family: 'Nunito';
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+}
+.historyListItem {
+  display: flex;
+  align-items: center;
+  padding-block: 20px;
+  cursor: pointer;
+  border-top: 1px solid $grey-light !important;
+}
+.historyList {
+  overflow-y: scroll;
+  max-height: 80vh;
+  padding-bottom: 50px;
+}
+
+.historyListItem:hover {
+  background-color: $blue-light;
+}
+
+.observation {
+  color: $grey-medium;
+  font-family: 'Nunito';
+  font-size: 12px !important;
+  margin: 0 !important;
+  text-align: right !important;
+}
+.textGrey {
+  color: $grey;
+  margin-bottom: 0px !important;
+}
+.textBlack {
+  color: $black;
+  margin-bottom: 0px !important;
+}
+.textBlue {
+  color: $blue;
+  margin-bottom: 0px !important;
+}
+
+.container {
+  display: block;
+  padding: 30px;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+.hr {
+  height: 1.5px;
+  background-color: #b1b8cb66;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.alignCenter {
+  justify-content: center;
+  display: flex;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.rowSpace {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.end {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonBlue {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 15px;
+  width: fit-content;
+  margin-right: 0 !important;
+}
+
+.textButtonConfirm {
+  color: $white;
+  font-weight: 700;
+  padding: 0 40px;
+  font-size: 20px;
+}
+
+
+
+.inputBase {
+  padding: 5px;
+  padding-left: 10px;
+  width: '100%';
+}
+
+.headerMenu {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: $black;
+  border: none;
+}
+
+.cellName {
+  font-size: 16px !important;
+}
+
+.cell {
+  font-size: 14px !important;
+  color: $grey-medium;
+}
+
+.grid {
+  margin-top: 20px;
+  border: none;
+}
+
+.iconSearch {
+  color: $grey-medium;
+  z-index: 100;
+  font-size: 20px;
+}
+
+.textList {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}

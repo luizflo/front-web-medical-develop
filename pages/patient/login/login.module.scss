@@ -1,0 +1,141 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column !important;
+  padding-left: 130px;
+  padding-right: 40px;
+  padding-top: 30px !important;
+
+}
+.contentMobile {
+  display: flex;
+  flex-direction: column !important;
+  padding-left: 30px;
+  padding-top: 30px !important;
+
+}
+
+.container {
+  width: 100%;
+}
+
+.title {
+  font-weight: 700 !important;
+  color: $black;
+  font-size: 26px !important;
+  margin-top: 50px !important;
+}
+
+.imgContainer {
+  height: 100vh;
+  background-image: url('../../../public/bgLogin.png');
+  background-size: cover;
+  background-position: center;
+  width: calc(100vw + 48px);
+}
+
+.logo {
+  height: 40px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+  justify-content: space-between;
+}
+
+.rowInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+.subtitle {
+  font-size: 14px !important;
+  color: $grey;
+}
+
+.inputTitle {
+  font-size: 16px !important;
+  color: $grey;
+  margin-bottom: 5px !important;
+  margin-top: 20px !important;
+}
+
+.inputCupom {
+  padding-block: 20px;
+  padding-inline: 20px;
+  border-radius: 8px;
+  max-width: 85%;
+  border: 1px solid $grey-light;
+  font-size: 16px !important;
+  color: $black;
+  margin-top: 0px !important;
+}
+
+.inputCupom:focus {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+
+.inputCupom::placeholder {
+  color: $grey;
+  font-size: 16px !important;
+  font-family: 'Nunito';
+}
+
+.button {
+  margin-top: 30px !important;
+  width: 85%;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 14px !important;
+}
+
+.iconEye {
+  margin-left: -40px !important;
+  cursor: pointer;
+  font-size: 20px !important;
+  color: $grey;
+}
+
+.forgotPassword {
+  font-size: 14px !important;
+  color: $blue;
+  margin-bottom: 0px !important;
+  margin-top: 8px !important;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+.forgotButton {
+  align-self: flex-end;
+  margin-right: 95px !important;
+  cursor: pointer;
+}
+
+.loginGoogleButton {
+  margin-top: 10px !important;
+  width: 85%;
+  height: 60px;
+  border-radius: 8px;
+  border-width: 1.5px;
+  font-size: 14px !important;
+  color: $blue;
+  font-weight: 700;
+  align-items: center;
+  text-transform: none;
+}
+
+.line {
+  background-color: $grey-light;
+  height: 1px;
+  max-width: 85%;
+  margin-top: 20px !important;
+}
+
+//@refresh reset

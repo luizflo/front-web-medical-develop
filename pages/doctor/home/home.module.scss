@@ -1,0 +1,859 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 10% !important;
+  height: max-content !important;
+}
+
+.block {
+  display: flex !important;
+}
+
+.title {
+  font-weight: 700 !important;
+  color: $black !important;
+  font-size: 30px !important;
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.cardGrey {
+  padding-left: 30px !important;
+  // background-color: $grey-light !important;
+  border-radius: 10px !important;
+  margin: 20px !important;
+  margin-top: 0px !important;
+  color: white !important;
+}
+.cardFiles {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin-bottom: 15px;
+  margin-inline: 20px;
+  padding-block: 20px;
+  padding-inline: 25px;
+  justify-content: space-between;
+  cursor: pointer;
+  display: flex;
+}
+
+.menuBar {
+  background-color: white !important;
+}
+
+.subtitle {
+  font-size: 18px !important;
+  color: $grey-medium !important;
+  margin-bottom: 10px !important;
+}
+
+.container {
+  max-height: 100vh;
+  padding: 30px;
+  overflow-y: hidden;
+}
+.containerHome {
+  display: block;
+  padding-block: 5vh;
+  max-height: 100vh;
+  padding-inline-start: 3vw;
+  padding-inline-end: 6vw;
+  overflow-y: hidden;
+}
+
+.container2 {
+  min-height: 100vh;
+  max-width: 85vw;
+  padding: 30px;
+}
+
+
+
+
+.textdetails {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: $grey-medium !important;
+  margin: 0 !important;
+}
+
+.textLinkDetails {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  color: $blue !important;
+  margin: 0 !important;
+  margin-top: 30px !important;
+  cursor: pointer !important;
+}
+
+.hr {
+  height: 2px !important;
+  background-color: #b1b8cb66 !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.textInfo {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  text-align: center !important;
+  color: $grey-medium !important;
+  margin-top: 10px !important;
+  max-width: 300px !important;
+}
+
+.textButtonConfirm {
+  color: $white !important;
+}
+
+.buttonConfirm {
+  display: flex !important;
+  border-radius: 8px !important;
+  background-color: $blue !important;
+  align-items: center !important;
+  cursor: pointer !important;
+  color: $white !important;
+  justify-content: center !important;
+  margin-top: 10px !important;
+  font-size: 16px !important;
+  padding-block: 10px !important;
+  padding-inline: 50px !important;
+}
+
+.buttonConfirm:hover {
+  background-color: $blue-dark !important;
+}
+
+.buttonSchedule {
+  display: flex !important;
+  border-radius: 8px !important;
+  background-color: $blue !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  width: fit-content !important;
+}
+
+.alignCenter {
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.textCard {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  color: $black !important;
+  margin-bottom: 0 !important;
+  white-space: nowrap !important;
+  width: 10em !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+.titleCardDetailsConsult {
+  color: $black !important;
+  margin-bottom: 10px !important;
+}
+
+.textRespond {
+  color: $blue;
+  margin-bottom: 0px !important;
+  cursor: pointer;
+}
+.textRespond:hover {
+  color: $blue-dark;
+  text-decoration: underline;
+}
+.textGrey {
+  color: $grey;
+  margin-bottom: 0px !important;
+}
+.textBlack {
+  color: $black;
+  margin-bottom: 0px !important;
+}
+.textBlue {
+  color: $blue;
+  margin-bottom: 0px !important;
+}
+
+.padding {
+  padding-left: 10px !important;
+  margin-top: 20px !important;
+}
+
+.alignRight {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.titleWhite {
+  font-weight: 700 !important;
+  font-size: 25px !important;
+}
+
+.subtitleWhite {
+  font-size: 18px !important;
+}
+
+.logoCalendar {
+  width: 100% !important;
+  max-width: 300px !important;
+}
+
+.row {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.rowSpace {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-right: 30px !important;
+}
+
+.space {
+  margin-left: 10px !important;
+}
+
+.cardBlack {
+  background: #1e1e1e !important;
+  display: flex;
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+}
+.textWhite {
+  color: white;
+  margin: 0px !important;
+}
+
+.textBigWhite {
+  color: $white !important;
+  margin: 0 !important;
+}
+
+.circleIcon {
+  background-color: #383838 !important;
+  padding: 10px !important;
+  margin: 5px !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+.IconBlue {
+  margin-right: 5px !important;
+}
+.grid {
+  margin-top: 20px !important;
+  border: none !important;
+}
+
+.headerMenu {
+  font-family: $font !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  color: $grey !important;
+  border: none !important;
+}
+
+.cell {
+  font-size: 10px !important;
+  color: $black !important;
+  font-weight: 600 !important;
+}
+
+.hourInitial {
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  color: $black !important;
+  margin-bottom: 0 !important;
+}
+
+.hourFinal {
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  color: $grey !important;
+  margin-bottom: 0 !important;
+}
+
+.borderPurple {
+  border-right: #c19af8 !important;
+  border-radius: 5px !important;
+  border-style: solid !important;
+  padding-right: 10px !important;
+}
+.buttonEnterDetailsConsult {
+  padding-inline: 60px !important;
+  font-size: 14px !important;
+  padding-block: 10px !important;
+  max-height: 50px !important;
+}
+.buttonFinishConsult {
+  padding-inline: 30px !important;
+  font-size: 14px !important;
+  padding-block: 10px !important;
+  max-height: 50px !important;
+}
+.buttonFinishConsult:hover {
+  background-color: $grey-light;
+}
+
+.textDuration {
+  font-weight: 700 !important;
+  font-size: 7px !important;
+  margin-bottom: 0px !important;
+  color: $grey !important;
+}
+
+.tagDuration {
+  background-color: $grey-light !important;
+  border-radius: 10px !important;
+  display: flex !important;
+  padding: 5px !important;
+  height: 20px !important;
+  margin: 6px !important;
+}
+
+.textSimple {
+  font-size: 15px !important;
+  color: $black !important;
+  margin-bottom: 0px !important;
+}
+
+.textTag {
+  background: #b9ffdd !important;
+  color: #0db564 !important;
+  padding: 5px 20px !important;
+  border-radius: 15px !important;
+  margin-bottom: 0 !important;
+  height: 25px !important;
+  margin-left: 10px !important;
+}
+
+.textDay {
+  color: $blue !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+}
+
+.textMonth {
+  color: $black !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  margin: 0px 7px !important;
+}
+
+.titleCard {
+  color: $grey !important;
+  font-size: 11px !important;
+  margin-bottom: 0px !important;
+}
+
+.cardBooking {
+  background-color: white;
+  padding-block: 10px;
+  border-radius: 8px;
+  padding-inline-end: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cardBooking:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+}
+
+.textHour {
+  font-weight: 700 !important;
+  color: $black !important;
+  font-size: 18px !important;
+  padding-left: 15px !important;
+  margin-bottom: 0px !important;
+}
+
+.textDate {
+  font-weight: 700 !important;
+  color: $grey !important;
+  font-size: 14px !important;
+  margin-bottom: 2px !important;
+  margin-top: 15px !important;
+}
+
+.titleEventCard {
+  font-weight: 800 !important;
+  color: $black !important;
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+}
+
+.subTitleEventCard {
+  font-weight: 500 !important;
+  color: $grey !important;
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+}
+
+.column {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.buttonEventList {
+  display: flex !important;
+  border-radius: 8px !important;
+  background-color: $blue !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  width: fit-content !important;
+}
+
+.buttonEventList:hover {
+  box-shadow: 0px 0px 6px 1px #d3d3d3 !important;
+  background-color: $blue-dark !important;
+}
+
+.textButtonEventList {
+  font-size: 14px !important;
+  color: $white !important;
+  font-weight: 700 !important;
+}
+
+.divider {
+  height: 60px !important;
+  width: 4px !important;
+  background-color: $yellow !important;
+  margin-inline: 15px !important;
+}
+
+.titleSection {
+  font-weight: 800 !important;
+  color: $black !important;
+  margin-bottom: 0px !important;
+}
+
+.subtitleSection {
+  font-size: 16px !important;
+  color: $grey-medium !important;
+}
+
+.cardBody {
+  font-size: 14px;
+  color: $grey;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.rowButtonBack {
+  display: flex;
+  align-items: center;
+  max-height: fit-content;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rowButtonBack:hover {
+  text-decoration: underline;
+}
+
+.spaceIcon {
+  color: $grey;
+}
+
+.boldBlue {
+  color: $blue;
+  font-weight: 700 !important;
+  margin-left: 5px !important;
+  font-size: 12px;
+}
+
+.textPages {
+  margin-bottom: 0px !important;
+  margin-left: 5px !important;
+  font-size: 12px;
+  font-weight: 700 !important;
+  color: $grey;
+}
+
+.title2 {
+  font-weight: 700 !important;
+  color: $black;
+  font-size: 30px !important;
+  margin-top: 20px;
+  margin-bottom: 0px !important;
+}
+
+
+
+.textCard {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: $black;
+  margin-bottom: 0 !important;
+}
+
+.titleCard {
+  color: $black;
+  margin-top: 5px !important;
+}
+
+.textGrey {
+  color: $grey;
+}
+
+.textWhiteMin {
+  margin-bottom: 0px !important;
+  padding-left: 20px;
+  padding-right: 120px;
+  color: white;
+}
+
+.rowSpacing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.buttonBlue {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 0px;
+  width: 100%;
+  margin-right: 0 !important;
+  justify-content: center;
+}
+
+.buttonSchedule {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 10px;
+  width: fit-content;
+}
+
+.alignCenter {
+  justify-content: center;
+  display: flex;
+}
+
+.cardConsult {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin-top: 10px;
+  margin-right: 20px;
+  // max-width: fit-content;
+  cursor: pointer;
+}
+
+.cardConsult:hover {
+  box-shadow: 0px 0px 6px 2px #d3d3d3;
+  transform: scale(0.98);
+}
+
+.cardItens {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin-block: 10px;
+  margin-inline: 20px;
+  padding-block: 20px;
+  padding-inline: 25px;
+  cursor: pointer;
+  // flex-direction: column !important;
+  align-items: center;
+  display: flex;
+}
+
+.cardItens:hover {
+  box-shadow: 0px 0px 6px 2px #d3d3d3;
+}
+
+.cardItensBlue {
+  border-radius: 10px;
+  background-color: $blue;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin: 10px;
+  padding-block: 20px;
+  padding-inline: 25px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  height: 90px;
+}
+
+.centerGrey {
+  text-align: center;
+  color: $grey;
+  max-width: 240px;
+}
+
+.gridCard {
+  // background-color: #9bb1fe;
+  margin-top: 20px;
+  display: flex;
+}
+
+.boxCard {
+  background-color: $white;
+  width: 25vw;
+  min-height: max-content;
+  cursor: pointer;
+  border-radius: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-right: 1.5vw;
+  box-shadow: 0px 0px 6px 2px rgb(132, 141, 159, 0.15);
+}
+
+.boxCardBook {
+  background-color: $blue;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  min-height: max-content;
+  cursor: pointer;
+  border-radius: 14px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-top: 20px;
+  margin-right: 1.5vw;
+}
+
+.boxCardBook:hover {
+  background-color: $blue-dark;
+}
+
+.boxCard:hover .arrowBlue {
+  display: flex;
+  transition: step-start;
+}
+
+.boxCard:hover {
+  transform: scale(0.98);
+}
+
+.boxCard:hover .buttonCard {
+  text-decoration: underline;
+}
+
+.arrow {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cardQuest {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.cardQuest:hover {
+  box-shadow: 0px 0px 6px 2px #d3d3d3;
+}
+
+.textConsult {
+  color: $black;
+  margin-bottom: 0px !important;
+}
+
+.textdetails {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: $grey-medium;
+  margin: 0px;
+  margin-left: 10px !important;
+}
+
+.centralize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textLinkDetails {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  text-align: center;
+  color: $blue;
+  padding-inline: 50px;
+  margin: 0 !important;
+  margin-top: 20px !important;
+}
+
+.rowButtonBack {
+  display: flex;
+  align-items: center;
+  max-height: fit-content;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rowButtonBack:hover {
+  text-decoration: underline;
+}
+
+.spaceIcon {
+  color: $grey;
+}
+
+.boldBlue {
+  color: $blue;
+  font-weight: 700 !important;
+  margin-left: 5px !important;
+  margin-bottom: 0px !important;
+  font-size: 12px;
+}
+
+.cardConsult2 {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin: 10px;
+  padding-block: 20px;
+  padding-inline: 25px;
+  align-items: center;
+  // cursor: pointer;
+  // flex-direction: column !important;
+  // display: flex;
+}
+.historyListItem {
+  display: flex;
+  align-items: center;
+  padding-block: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-inline: 20px;
+  border: 1px solid $grey-light !important;
+}
+.historyList {
+  overflow-y: scroll;
+  max-height: 80vh;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.historyListItem:hover {
+  box-shadow: 0px 0px 6px 1px #d3d3d3;
+}
+.cardConsult2:hover {
+  box-shadow: 0px 0px 6px 2px #d3d3d3;
+}
+.cardConsultDetails {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin: 10px;
+  padding-block: 20px;
+  padding-inline: 25px;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  // flex-direction: column !important;
+  display: flex;
+}
+
+.cardConsultDetails:hover {
+  box-shadow: 0px 0px 6px 2px #d3d3d3;
+}
+
+.bgTop {
+  background-color: #d9e5f0;
+  height: 100px;
+}
+.userRound {
+  border: 5px solid white !important;
+  border-radius: 50%;
+  width: 123px;
+  height: 123px;
+}
+
+.titleModal {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.subtitleModal {
+  font-size: 18px;
+  line-height: 25px;
+  color: $grey;
+}
+.boxNotes {
+  border: 1px solid $grey-light;
+  border-radius: 5px;
+  padding: 10px;
+  height: 25vh;
+  overflow-y: scroll;
+}
+
+.tag {
+  padding: 4px 15px !important;
+  width: fit-content;
+  top: 64px;
+  background: #d9e5f0;
+  border-radius: 10px;
+  color: $blue;
+  margin-right: 8px !important;
+  margin-bottom: 10px;
+}
+
+.tagPlan {
+  background: $blue;
+  border-radius: 16px;
+  color: white;
+  // margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  padding: 7px 15px !important;
+}
+
+.plan {
+  font-size: 13px !important;
+  margin-left: 5px !important;
+  line-height: 0;
+  margin-top: 6px;
+}
+
+.badge {
+  margin: 5px;
+  width: auto !important;
+  height: 100% !important;
+}
+
+.containerModal {
+  display: block;
+  margin: 30px;
+  margin-top: 20px;
+}

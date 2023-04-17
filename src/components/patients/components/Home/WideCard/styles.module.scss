@@ -1,0 +1,79 @@
+@import '@styles/app.scss';
+
+.boxCard {
+  background-color: $blue;
+  // width: 25vw;
+  min-height: max-content;
+  cursor: pointer;
+  border-radius: 14px;
+  padding-left: 20px;
+  padding-right: 10px;
+  // padding-bottom: 10px;
+  border: 2px solid $grey-lighter;
+  padding-top: 20px;
+  max-width: 95% !important;
+  box-shadow: 0px 0px 6px 2px rgb(132, 141, 159, 0.15);
+}
+.boxCard:hover .arrowBlue {
+  display: flex;
+  transition: step-start;
+}
+
+.boxCard:hover {
+  border: 2px solid $blue-light;
+}
+
+.boxCard:hover .textBlue {
+  text-decoration: underline;
+}
+.cardIcon {
+  width: 50px;
+  height: 50px;
+}
+.titleCard {
+  // font-size: 14px;
+  color: $white;
+  // font-weight: 800;
+}
+.bodyCard {
+  font-size: 12px;
+  color: $white;
+  margin-top: 5px !important;
+}
+.titleCardBlack {
+  // font-size: 14px;
+  color: $black;
+  // font-weight: 800;
+}
+.bodyCardBlack {
+  font-size: 12px;
+  color: $grey;
+  margin-top: 5px !important;
+  // max-width: 80%;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.textBlue {
+  color: $blue;
+}
+.textGreen {
+  color: $green;
+}
+.arrowBlue {
+  margin-left: 10px;
+  display: none;
+}
+.progressBar {
+  height: 5px;
+  border-radius: 10px;
+  width: 90%;
+  background-color: $grey-lighter;
+}
+.progressThumb {
+  height: 5px;
+  border-radius: 10px;
+  width: 10%;
+  background-color: $green;
+}

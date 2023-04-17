@@ -1,0 +1,132 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex !important;
+  flex-direction: column !important;
+  padding-left: 10vw !important;
+  padding-right: 2.5vw !important;
+  padding-top: 30px !important;
+}
+
+.container {
+  max-width: 100vw !important;
+}
+
+.title {
+  font-weight: 700 !important;
+  color: $black !important;
+  font-size: 26px !important;
+  margin-top: 50px !important;
+}
+
+.imgContainer {
+  height: 100vh !important;
+  background-image: url('../../../public/images/secretary/bgLogin.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: calc(100vw + 48px) !important;
+}
+
+.logo {
+  height: 40px !important;
+}
+
+.row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+  justify-content: space-between !important;
+}
+
+.rowInput {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+}
+
+.subtitle {
+  font-size: 14px !important;
+  color: $grey !important;
+}
+
+.inputTitle {
+  font-size: 16px !important;
+  color: $grey !important;
+  margin-bottom: 5px !important;
+  margin-top: 20px !important;
+}
+
+.inputCupom {
+  padding-block: 20px !important;
+  padding-inline: 20px !important;
+  border-radius: 8px !important;
+  max-width: 85% !important;
+  border: 1px solid $grey-light !important;
+  font-size: 16px !important;
+  color: $black !important;
+  margin-top: 0px !important;
+}
+
+.inputCupom:focus {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+
+.inputCupom::placeholder {
+  color: $grey !important;
+  font-size: 16px !important;
+  font-family: 'Nunito' !important;
+}
+
+.button {
+  margin-top: 30px !important;
+  width: 85% !important;
+  height: 60px !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+}
+
+.iconEye {
+  margin-left: -40px !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+  color: $grey !important;
+}
+
+.forgotPassword {
+  font-size: 14px !important;
+  color: $blue !important;
+  margin-bottom: 0px !important;
+  margin-top: 8px !important;
+  font-weight: 600 !important;
+  align-self: flex-end !important;
+}
+
+.forgotButton {
+  align-self: flex-end !important;
+  margin-right: 95px !important;
+  cursor: pointer !important;
+}
+
+.loginGoogleButton {
+  margin-top: 10px !important;
+  width: 85% !important;
+  height: 60px !important;
+  border-radius: 8px !important;
+  border-width: 1.5px !important;
+  font-size: 14px !important;
+  color: $blue !important;
+  font-weight: 700 !important;
+  align-items: center !important;
+}
+
+.line {
+  background-color: $grey-light !important;
+  height: 1px !important;
+  max-width: 85% !important;
+  margin-top: 20px !important;
+}
+
+//@refresh reset

@@ -1,0 +1,103 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: hidden;
+  height: max-content;
+  background-color: $white;
+}
+
+.container {
+  padding-inline: 180px;
+}
+
+.grid {
+  display: flex;
+  background-color: $white;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-inline: 12vw;
+  // padding-inline: 335px;
+  padding-bottom: 15px;
+}
+.textBlue {
+  color: $blue;
+}
+.textGrey {
+  color: $grey;
+}
+.textBlack {
+  color: $black;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-height: fit-content;
+}
+.logo {
+  height: 40px;
+}
+
+.boxTexts {
+  background-color: $grey-lighter;
+  padding-inline: 40px;
+  padding-block: 30px;
+  border-radius: 13px;
+  transition: all .2s ease-in-out;
+}
+.boxTexts:hover {
+  transform: scale(0.98) rotateY(5deg)  skewY(0.1deg);
+}
+
+.buttonExpand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  align-self: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.centralTitle {
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0px !important;
+}
+.iconCheck {
+  height: 21px;
+}
+.boxProgram {
+  border: 1px solid $grey-light;
+  padding-inline: 40px;
+  padding-block: 30px;
+  border-radius: 13px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.boxProgram:hover {
+  border: 2px solid $blue;
+  transform: scale(0.98);
+}
+.tag {
+  background-color: $blue-light;
+  color: $blue;
+  border-radius: 15px;
+  padding-inline: 10px;
+  max-width: 40%;
+}
+.button {
+  padding-inline: 50px;
+}
+.textJump {
+  color: $grey;
+}
+.textJump:hover {
+  color: $blue;
+}

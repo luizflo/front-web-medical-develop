@@ -1,0 +1,142 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  padding-inline: 50px;
+  height: max-content;
+  background-color: $white;
+
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.select {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.body {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #848D9F;
+  margin-top: 10px;
+}
+
+.subtitle {
+  font-weight: 700;
+  color: $black;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.titlePlan {
+  font-weight: 700;
+  color: $black;
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.text {
+  font-size: 16px;
+  color: $grey;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+.rowPlan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+  justify-content: space-between;
+
+}
+
+.card {
+  box-sizing: border-box;
+  border: 1px solid #DADEE6;
+  border-radius: 7px;
+  padding: 20px;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.tag {
+  padding: 1px 10px;
+  width: fit-content;
+  top: 64px;
+  background: #B9FFDD;
+  border-radius: 8px;
+  color: #0DB564;
+  margin-right: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.seeMore {
+  text-align: center;
+  width: 100%;
+  color: #0074E5;
+  font-weight: bold;
+}
+
+.planCart {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 0 !important;
+}
+
+.textCart {
+  font-size: 16px;
+  color: $grey;
+  margin-bottom: 0 !important;
+  margin-top: 10px;
+}
+
+.cardCart {
+  box-sizing: border-box;
+  border: 1px solid #DADEE6;
+  border-radius: 7px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.hr {
+  height: 2px;
+  background-color: #B1B8CB66;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.textblack {
+  font-size: 14px;
+  margin: 0 !important;
+  font-weight: 600;
+}
+
+.cupom {
+  width: 100%;
+  border: #B1B8CB;
+}
+
+.textLink {
+  color: #3772FF;
+  padding-left: 10px;
+  font-size: 14px;
+}

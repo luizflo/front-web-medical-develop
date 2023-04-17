@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  background-color: $white;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.titleLobby {
+  font-size: 35px;
+}
+.subtitle {
+  font-size: 18px;
+  color: $grey;
+  font-weight: 500;
+}
+.form {
+  padding-left: 7vw;
+  display: flex;
+  flex-direction: column !important;
+  background-color: white;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.filesButton {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: $white;
+}
+.body1 {
+  font-family: $font;
+  margin-left: 20px !important;
+  font-weight: 500;
+  font-size: 18px;
+  color: $grey;
+  margin-bottom: 0 !important;
+}
+.image {
+  height: 20.96px;
+  width: 20.14px;
+}
+.attachment {
+  color: $blue;
+  font-weight: 600;
+}
+.attachment:hover {
+  text-decoration: underline;
+  color: $blue-dark;
+}
+.button {
+  background-color: $blue;
+  padding-inline: 60px !important;
+  font-size: 18px !important;
+  padding-block: 10px !important;
+  color: white;
+  border-radius: 25px !important;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 20px !important;
+}

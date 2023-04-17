@@ -1,0 +1,27 @@
+@import '@styles/app.scss';
+
+
+.logoUser {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.textName {
+  font-weight: 600;
+  font-size: 18px;
+  color: $black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0 !important;
+}
+
+.textPlan {
+  font-weight: 600;
+  font-size: 14px;
+  color: $blue;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}

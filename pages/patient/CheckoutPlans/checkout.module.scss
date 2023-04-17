@@ -1,0 +1,268 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-x: hidden;
+  height: max-content;
+  background-color: $white;
+}
+
+.container {
+  padding-inline: 180px;
+}
+
+.grid {
+  display: flex;
+  background-color: $white;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-inline: 180px;
+  // padding-inline: 335px;
+  padding-bottom: 15px;
+}
+.textBlue {
+  color: $blue;
+}
+.textGrey {
+  color: $grey;
+}
+
+.gridContent {
+  display: flex;
+  flex-direction: column !important;
+  height: max-content;
+  background-color: $white;
+  // align-items: center;
+  // padding-inline: 180px;
+  // align-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-height: fit-content;
+}
+.forms {
+  width: 90%;
+}
+.logo {
+  height: 40px;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: $black;
+  margin-bottom: 0px !important;
+}
+
+.boxPlan {
+  width: 95%;
+  background-color: white;
+  align-items: center;
+  margin-top: 10px !important;
+  border-radius: 8px;
+  padding-inline: 24px;
+  padding-block: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 1.5px solid $grey-light;
+}
+.boxPlanSelected {
+  width: 95%;
+  background-color: white;
+  align-items: center;
+  margin-top: 10px !important;
+  border-radius: 8px;
+  padding-inline: 24px;
+  padding-block: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 2px solid $blue;
+}
+
+.button {
+  margin-top: 50px !important;
+  width: 90%;
+  height: 60px;
+  border-radius: 8px;
+  align-self: center;
+  font-size: 14px !important;
+}
+
+.cardTitle {
+  color: $grey;
+  margin-bottom: 0px !important;
+}
+
+.cardName {
+  color: $black;
+  margin-bottom: 0px !important;
+}
+
+.cardTag {
+  font-size: 12px;
+  font-weight: 700;
+  background-color: $blue;
+  padding-inline: 20px !important;
+  color: $white;
+  padding-block: 1px;
+  // margin-right: 8px;
+  border-radius: 8px;
+  margin-bottom: 0px !important;
+}
+
+.cardValue {
+  font-size: 30px;
+  color: $black;
+  font-weight: 800;
+  margin-bottom: 0px !important;
+}
+
+.cardSubtitle {
+  font-size: 14px;
+  color: $grey;
+  margin-top: 10px !important;
+}
+
+.boxContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttonExpand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  align-self: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.expandText {
+  font-size: 14px;
+  color: $blue;
+  font-weight: 700;
+  margin-bottom: 0px !important;
+}
+
+.titleProgram {
+  display: flex;
+  flex-wrap: nowrap;
+  color: $black;
+  margin-bottom: 0px !important;
+}
+
+.valueProgram {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  color: $black;
+  white-space: nowrap;
+  margin-right: 10px !important;
+  margin-bottom: 0px !important;
+}
+
+.textProgram {
+  font-size: 14px;
+  font-weight: 600;
+  color: $grey;
+  max-width: 80%;
+}
+
+.boxResume {
+  border: 1px solid $grey-light;
+  padding-inline: 30px;
+  padding-block: 20px;
+  border-radius: 20px;
+  margin-top: 90px !important;
+}
+.arrowBack {
+  cursor: pointer;
+}
+
+.resumeTitle {
+  font-size: 20px;
+  color: $black;
+  margin-top: 10px !important;
+  font-weight: 800;
+}
+
+.planTitle {
+  font-size: 18px;
+  color: $black;
+  font-weight: 700;
+  // margin-top: 10px !important;
+  margin-bottom: 0px !important;
+}
+
+.titleBold {
+  color: $black;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+.programTitle {
+  font-size: 16px;
+  color: $grey;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+  margin-top: 10px !important;
+}
+
+.programTotal {
+  font-size: 20px;
+  color: $black;
+  font-weight: 800;
+  margin-bottom: 0px !important;
+  margin-top: 10px;
+}
+
+.resumeText {
+  font-size: 16px;
+  color: $black;
+  font-weight: 700;
+  margin-bottom: 0px !important;
+  margin-top: 10px;
+}
+
+.line {
+  height: 1px;
+  margin-top: 20px;
+  background-color: $grey-light;
+  margin-bottom: 20px;
+}
+
+.inputCupom {
+  padding-block: 15px;
+  padding-inline: 20px;
+  border-radius: 8px;
+  border: 1px solid $grey-light;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.more {
+  padding-right: 20px !important;
+  // background-color: #b9ffdd;
+}

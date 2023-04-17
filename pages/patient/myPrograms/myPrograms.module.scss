@@ -1,0 +1,123 @@
+@import "@styles/app.scss";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: max-content;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-top: 30px !important;
+  margin-bottom: 0 !important;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: $grey-medium;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: block;
+  max-height: 100vh;
+  padding: 2vw;
+}
+.tag {
+  padding: 4px 15px !important;
+  width: fit-content;
+  top: 64px;
+  background: $blue;
+  border-radius: 10px;
+  color: $white;
+  margin-bottom: 10px;
+}
+
+.hr {
+  height: 2px;
+  background-color: #b1b8cb66;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.alignCenter {
+  justify-content: center;
+  display: flex;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardProgram {
+  background-color: $white;
+  // width: 25vw;
+  display: flex;
+  cursor: pointer;
+  border: $grey-light;
+  border-width: 1px;
+  border-radius: 14px;
+  padding-left: 5px;
+  padding-right: 10px;
+  max-width: 30vw !important;
+  margin: 10px !important;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+}
+.cardProgram:hover .arrowBlue {
+  display: flex;
+  transition: step-start;
+}
+
+.cardProgram:hover {
+  transform: scale(0.98);
+  border: 0.5px solid $blue;
+}
+
+.cardProgram:hover .buttonCard {
+  text-decoration: underline;
+}
+.titleCard {
+  color: $black;
+  margin-top: 15px !important;
+  margin-bottom: 5px !important;
+}
+.bodyCard {
+  color: $grey;
+}
+.textBlue {
+  color: $blue;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.textLink {
+  text-align: right;
+  margin: 10px 20px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #0074e5;
+}
+
+.imgMore {
+  width: 60px;
+  align-self: center;
+  margin: 20px;
+}
+
+.textMore {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0074e5;
+  text-align: center;
+}

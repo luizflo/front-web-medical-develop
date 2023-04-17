@@ -1,0 +1,314 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 10% !important;
+  height: max-content !important;
+}
+
+.title {
+  font-weight: 800 !important;
+  color: $black !important;
+  font-size: 25px !important;
+  margin-bottom: 0px !important;
+}
+
+.subtitle {
+  font-size: 16px !important;
+  color: $grey-medium !important;
+}
+
+.pageTitleContainer {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.cardPurple {
+  padding: 30px !important;
+  background-color: #9bb1fe !important;
+  border-radius: 10px !important;
+  margin: 20px !important;
+  color: white !important;
+}
+
+.menuBar {
+  background-color: white !important;
+}
+
+.container {
+  display: block !important;
+  padding-inline: 20px !important;
+}
+
+.cardConsult {
+  border-radius: 10px !important;
+  box-shadow: 0px 0px 6px 2px #d3d3d3 !important;
+  margin: 10px !important;
+  padding: 20px !important;
+}
+
+.textConsult {
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 20px !important;
+  color: $black !important;
+}
+
+.textdetails {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: $grey-medium !important;
+  margin: 0 !important;
+}
+
+.titleSection {
+  font-weight: 800 !important;
+  color: $black !important;
+  font-size: 18px !important;
+  margin-bottom: 0px !important;
+}
+
+.textLinkDetails {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  text-align: center !important;
+  color: $blue !important;
+  margin: 0 !important;
+  margin-top: 10px !important;
+}
+
+.hr {
+  height: 2px !important;
+  background-color: #b1b8cb66 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.textInfo {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  text-align: center !important;
+  color: $grey-medium !important;
+  margin-top: 10px !important;
+  max-width: 300px !important;
+}
+
+.textButtonConfirm {
+  font-size: 16px !important;
+  color: $white !important;
+  font-weight: 700 !important;
+}
+
+.buttonConfirm {
+  display: flex !important;
+  border-radius: 8px !important;
+  background-color: $blue !important;
+  align-items: center !important;
+  cursor: pointer !important;
+  padding-block: 10px !important;
+  justify-content: center !important;
+}
+
+.buttonSchedule {
+  display: flex !important;
+  border-radius: 8px !important;
+  background-color: $blue !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  width: fit-content !important;
+}
+
+.alignCenter {
+  justify-content: center !important;
+  display: flex !important;
+}
+
+.textCard {
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  color: $black !important;
+  margin-bottom: 0 !important;
+}
+
+.textRespond {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: $blue !important;
+  margin: 0 !important;
+}
+
+.gridRight {
+  padding: 0px !important;
+  background-color: blueviolet !important;
+}
+
+.gridLeft {
+  padding: 0px !important;
+  background-color: #9bb1fe !important;
+}
+
+.alignRight {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.titleWhite {
+  font-weight: 700 !important;
+  font-size: 25px !important;
+}
+
+.subtitleWhite {
+  font-size: 18px !important;
+}
+
+.logoCalendar {
+  width: 100% !important;
+  max-width: 300px !important;
+}
+
+.rowSpace {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-right: 30px !important;
+}
+
+.cardBooking {
+  background-color: white !important;
+  padding-block: 10px !important;
+  border-radius: 8px !important;
+  padding-inline-end: 15px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+.cardBooking:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15) !important;
+}
+
+.textHour {
+  font-weight: 700 !important;
+  color: $black !important;
+  font-size: 18px !important;
+  padding-left: 15px !important;
+  margin-bottom: 0px !important;
+}
+
+.textDate {
+  font-weight: 700 !important;
+  color: $grey !important;
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+  margin-top: 15px !important;
+}
+
+.titleEventCard {
+  font-weight: 800 !important;
+  color: $black !important;
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+}
+
+.subTitleEventCard {
+  font-weight: 500 !important;
+  color: $grey !important;
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+}
+
+.column {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.buttonEventList {
+  display: flex !important;
+  border-radius: 8px !important;
+  background-color: $blue !important;
+  cursor: pointer !important;
+  padding: 10px !important;
+  width: fit-content !important;
+}
+
+.buttonEventList:hover {
+  box-shadow: 0px 0px 6px 1px #d3d3d3 !important;
+}
+
+.textButtonEventList {
+  font-size: 14px !important;
+  color: $white !important;
+  font-weight: 700 !important;
+}
+
+.divider {
+  height: 60px !important;
+  width: 4px !important;
+  background-color: $yellow !important;
+  margin-inline: 15px !important;
+}
+
+.dialogTitle {
+  font-size: 22px !important;
+  color: $black !important;
+  font-weight: 800 !important;
+  max-width: 80% !important;
+  margin-top: 10px !important;
+}
+
+.dialogBody {
+  font-size: 14px !important;
+  color: $grey !important;
+  font-weight: 500 !important;
+}
+
+.dialogSubtitle {
+  font-size: 18px !important;
+  color: $grey !important;
+  font-weight: 500 !important;
+}
+
+.dialogSelectTitle {
+  font-size: 16px !important;
+  color: $black !important;
+  font-weight: 700 !important;
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+}
+
+.row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  margin-top: 10px !important;
+}
+
+.buttonDialog {
+  padding-inline: 50px !important;
+  padding-block: 10px !important;
+  background-color: $blue !important;
+  border-radius: 8px !important;
+  color: white !important;
+  font-size: 18px !important;
+}
+
+.buttonDialog:hover {
+  background-color: $blue !important;
+  color: $blue-light !important;
+  box-shadow: 0px 0px 6px 1px #d3d3d3 !important;
+}
+
+.select {
+  margin-top: 0px !important;
+  font-size: 16px !important;
+  width: 100% !important;
+}

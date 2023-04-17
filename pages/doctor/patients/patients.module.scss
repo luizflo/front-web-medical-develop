@@ -1,0 +1,372 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: max-content;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0 !important;
+}
+.marginLeft {
+  margin-left: 10px;
+}
+
+.subtitle {
+  color: $grey-medium;
+  font-family: 'Nunito';
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.observation {
+  color: $grey-medium;
+  font-family: 'Nunito';
+  font-size: 12px;
+  margin: 0 !important;
+  text-align: right;
+}
+
+.container {
+  display: block;
+  padding: 30px;
+}
+
+.hr {
+  height: 1.5px;
+  background-color: #b1b8cb66;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.alignCenter {
+  justify-content: center;
+  display: flex;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.rowSpace {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.end {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.firsty {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 0;
+}
+
+.buttonBlue {
+  display: flex;
+  border-radius: 8px;
+  background-color: $blue;
+  cursor: pointer;
+  padding: 15px;
+  width: fit-content;
+  margin-right: 0 !important;
+}
+
+.textButtonConfirm {
+  color: $white;
+  font-weight: 700;
+  padding: 0 40px;
+  font-size: 20px;
+}
+.textGrey {
+  color: $grey;
+  margin-bottom: 0px !important;
+}
+.textBlack {
+  color: $black;
+  margin-bottom: 0px !important;
+}
+.textBlue {
+  color: $blue;
+  margin-bottom: 0px !important;
+}
+.historyListItem {
+  display: flex;
+  align-items: center;
+  padding-block: 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-inline: 20px;
+  border: 1px solid $grey-light !important;
+}
+.historyList {
+  overflow-y: scroll;
+  max-height: 80vh;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+.historyListItem:hover {
+  box-shadow: 0px 0px 6px 1px #d3d3d3;
+}
+
+.styledInputBase {
+  padding: 10px;
+  height: '100%';
+  pointer-events: 'none';
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+  width: 200px;
+  min-width: 50%;
+  max-width: 806px;
+  background: #ffffff;
+
+  border: 1px solid #dadee6;
+  border-radius: 9px;
+  padding-left: 40px;
+  font-size: 15px;
+  color: $grey-medium;
+}
+
+.inputBase {
+  padding: 5px;
+  padding-left: 10px;
+  width: '100%';
+}
+
+.headerMenu {
+  font-family: $font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: $black;
+  border: none;
+}
+
+.cellName {
+  font-size: 16px;
+}
+
+.cellLink {
+  font-size: 14px !important;
+  color: $blue;
+  text-transform: none;
+}
+.cellLink:hover {
+  text-decoration: underline;
+}
+
+.cell {
+  font-size: 14px;
+  color: $grey-medium;
+}
+
+.grid {
+  margin-top: 20px;
+  border: none;
+}
+
+.iconSearch {
+  color: $grey-medium;
+  z-index: 100;
+  font-size: 20px;
+}
+.IconBlue {
+  margin-right: 5px !important;
+}
+.boxNotes {
+  border: 1px solid $grey-light;
+  border-radius: 5px;
+  padding: 10px;
+  height: 25vh;
+}
+.textList {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.bgTop {
+  background-color: #d9e5f0;
+  height: 150px;
+}
+
+.userRound {
+  border: 5px solid white !important;
+  border-radius: 50%;
+  width: 123px;
+  height: 123px;
+}
+
+.titleModal {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.subtitleModal {
+  font-size: 18px;
+  line-height: 25px;
+  color: $grey;
+}
+
+.tag {
+  padding: 4px 15px !important;
+  width: fit-content;
+  top: 64px;
+  background: #d9e5f0;
+  border-radius: 10px;
+  color: $blue;
+  margin-right: 8px !important;
+  margin-bottom: 10px;
+}
+
+.tagPlan {
+  background: $blue;
+  border-radius: 16px;
+  color: white;
+  // margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+  padding: 7px 15px !important;
+}
+
+.plan {
+  font-size: 13px !important;
+  margin-left: 5px !important;
+  line-height: 0;
+  margin-top: 6px;
+}
+
+.badge {
+  margin: 5px;
+  width: auto !important;
+  height: 100% !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+.label {
+  font-size: 16px;
+  color: $grey;
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.containerModal {
+  display: block;
+  margin: 30px;
+}
+
+.link {
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 10px !important;
+  color: $blue;
+}
+
+.linkMessage {
+  font-size: 14px;
+  line-height: 22px;
+  color: $blue;
+  margin-top: 28px;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.rowLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+
+.rowButtonBack {
+  display: flex;
+  align-items: center;
+  max-height: fit-content;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rowButtonBack:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.textPages {
+  margin-bottom: 0px !important;
+  margin-left: 5px !important;
+  font-size: 12px;
+  font-weight: 500;
+  color: $grey;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0 !important;
+}
+.card {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px #d3d3d3;
+  margin: 10px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-inline: 15px;
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
+}
+.userRound {
+  border: 5px solid white !important;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.textRespond {
+  color: $blue;
+  margin-bottom: 0px !important;
+  cursor: pointer;
+}

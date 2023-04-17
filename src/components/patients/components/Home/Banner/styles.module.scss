@@ -1,0 +1,19 @@
+@import '@styles/app.scss';
+
+.titleCard {
+  // font-size: 14px;
+  color: $black;
+  // font-weight: 800;
+  margin-top: 5px !important;
+}
+.boxImg {
+  height: 140px !important;
+  background-image: url('../../../../../../public/carousel1.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  // width: 60vw;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}

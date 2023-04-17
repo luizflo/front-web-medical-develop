@@ -1,0 +1,380 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 130px;
+  padding-right: 40px;
+  padding-top: 30px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.containerRow {
+  width: 100%;
+  display: flex;
+}
+
+.iconReturn {
+  font-size: 30px;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 35px;
+}
+
+.imgContainer {
+  height: 100vh;
+  background-image: url('../../../public/bg_createAccount.png');
+  background-size: cover;
+  background-position: center;
+  width: calc(100vw + 48px);
+}
+
+.logo {
+  height: 60px;
+  // position: absolute
+}
+
+.logoCenter {
+  height: 40px;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+  justify-content: space-between;
+}
+
+.rowSimple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+.rowCollumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+  flex-direction: column;
+  width: 100%;
+}
+
+.rowInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+.rowInputAdress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+  max-width: 91%;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: $grey;
+}
+
+.inputTitle {
+  font-size: 16px;
+  color: $grey;
+  margin-bottom: 5px !important;
+  margin-top: 20px;
+}
+
+.inputCupom {
+  padding-block: 20px;
+  padding-inline: 20px;
+  border-radius: 8px;
+  width: 85%;
+  border: 1px solid $grey-light;
+  font-size: 16px;
+  color: $black;
+  margin-top: 0px;
+}
+
+.inputBlue {
+  padding-block: 20px;
+  padding-inline: 20px;
+  border-radius: 8px;
+  width: 85%;
+  border: 1px solid $blue;
+  font-size: 16px;
+  color: $black;
+}
+
+.inputCupom:focus {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+
+.inputCupom::placeholder {
+  color: $grey;
+  font-size: 16px;
+  font-family: 'Nunito';
+}
+
+.button {
+  margin-top: 30px;
+  width: 85%;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.iconEye {
+  margin-left: -40px;
+  cursor: pointer;
+  font-size: 20px;
+  color: $grey;
+}
+
+.forgotPassword {
+  font-size: 14px;
+  color: $blue;
+  margin-bottom: 0px !important;
+  margin-top: 8px;
+  font-weight: 600;
+  align-self: flex-end;
+}
+
+.forgotButton {
+  align-self: flex-end;
+  margin-right: 95px;
+  cursor: pointer;
+}
+
+.loginGoogleButton {
+  margin-top: 10px;
+  width: 85%;
+  height: 60px;
+  border-radius: 8px;
+  border-width: 1.5px;
+  font-size: 14px;
+  color: $black;
+  font-weight: 700;
+  align-items: center;
+  border: 1px solid #dadee6;
+  box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.line {
+  background-color: $grey-light;
+  height: 1px;
+  max-width: 85%;
+  margin-top: 40px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: $grey;
+  width: 85%;
+}
+
+.iconReturn {
+  margin: 40px 0;
+}
+
+.warning {
+  color: $grey-medium;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.rowTerms {
+  display: flex;
+}
+
+.textTerms {
+  font-size: 12px;
+  margin-top: 18px;
+}
+
+.textNotification {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.link {
+  font-size: 20px;
+  color: $blue;
+  margin-left: 2px;
+}
+
+.linkTerms {
+  font-size: 12px;
+  margin-top: 18px;
+  color: $blue;
+  margin-left: 2px;
+}
+
+.rowLogin {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.textLogin {
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+.linkLogin {
+  font-size: 14px;
+  margin-top: 18px;
+  color: $blue;
+  margin-left: 2px;
+}
+
+.fontInstructions {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  max-width: 1000px;
+  color: $grey-medium;
+  margin-bottom: 0px !important;
+}
+
+.textLater {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: $grey-medium;
+}
+
+.buttonSmall {
+  max-width: 300px;
+  margin-top: 30px;
+  height: 60px;
+  padding: 5px 100px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.alignCircleButton {
+  text-align: flex-end;
+  max-width: 85%;
+  margin-top: 100px;
+}
+
+.buttonCircle {
+  margin-top: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 14px;
+  background-color: $blue;
+  width: fit-content;
+}
+
+.buttonRounded {
+  margin-top: 30px;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 14px;
+  background-color: $blue;
+  width: fit-content;
+}
+
+.rowTopRight {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  width: 80%;
+}
+
+.progressDiv {
+  width: 100%;
+  height: 4px;
+  background-color: $grey-light;
+}
+
+.progressBar {
+  width: 30%;
+  height: 4px;
+  background-color: $green;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  display: flex;
+  background-color: $white;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding-top: 15px;
+  padding-inline: 335px;
+  padding-bottom: 15px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+  height: max-content;
+  margin-top: 0px;
+  background-color: $white;
+}
+
+.marginTopFirsty {
+  margin-top: 50px !important;
+}
+
+.buttonGroup {
+  width: 100%;
+  box-shadow: none;
+}
+
+.buttonGroupItem {
+  margin-top: 30px;
+  width: 85%;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: left;
+  box-sizing: border-box;
+  background: #ffffff;
+  color: $grey-medium;
+  border: 1.5px solid #dadee6;
+  border-radius: 8px;
+  justify-content: flex-start;
+}
+
+.logoGender {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.buttonGroupItem:hover {
+  color: $white;
+}

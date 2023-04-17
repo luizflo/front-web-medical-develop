@@ -1,0 +1,91 @@
+@import '@styles/app.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: max-content;
+}
+
+.title {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0 !important;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: $grey-medium;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: block;
+}
+
+.hr {
+  height: 2px;
+  background-color: #B1B8CB66;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.alignCenter {
+  justify-content: center;
+  display: flex;
+}
+
+
+.padding {
+  padding: 10px
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardProgram {
+  box-shadow: 0px 0px 12px 0px #cdcdcd;
+  width: fit-content;
+  margin: 20px;
+  border-radius: 22px;
+  min-width: 260px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.textCard {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #1E1E1E;
+  padding-top: 20px;
+  margin-bottom: 0 !important;
+}
+
+.textLink {
+  text-align: right;
+  margin: 10px 20px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #0074E5;
+}
+
+.imgMore {
+  width: 60px;
+  align-self: center;
+  margin: 20px;
+}
+
+.textMore {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0074E5;
+  text-align: center;
+}

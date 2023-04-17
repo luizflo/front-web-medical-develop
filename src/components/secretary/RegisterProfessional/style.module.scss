@@ -1,0 +1,159 @@
+@import '@styles/app.scss';
+
+.modal {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px !important;
+  max-height: 96vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.titleModal {
+  font-weight: 700;
+  color: $black;
+  font-size: 40px;
+  margin-bottom: 0 !important;
+}
+.exit {
+  cursor: pointer;
+  font-size: 20px !important;
+  color: $grey;
+}
+.inputTitle {
+  font-size: 16px;
+  color: $grey;
+  margin-bottom: 5px !important;
+  margin-top: 20px !important;
+}
+.selectSpecialty {
+  outline: none;
+  cursor: pointer;
+  padding-block: 20px !important;
+  padding-inline: 20px !important;
+  border-radius: 8px !important;
+  width: 95% !important;
+  border: 1px solid $grey-light !important;
+  font-size: 16px !important;
+  display: flex;
+  color: $black !important;
+  margin-top: 0px !important;
+}
+.selectSpecialty:last-child {
+  padding-bottom: 30px !important;
+}
+.selectSpecialty:focus-within{
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+.selectLanguage{
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px !important;
+  width: 95% !important;
+  border: 1px solid $grey-light !important;
+  font-size: 16px !important;
+  display: flex;
+  color: $black !important;
+  margin-top: 0px !important;
+}
+.selectLanguage:focus-within{
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+.inputCupom {
+  padding-block: 18px !important;
+  padding-inline: 20px !important;
+  border-radius: 8px !important;
+  width: 95% !important;
+  border: 1px solid $grey-light !important;
+  font-size: 16px !important;
+  display: flex;
+  color: $black !important;
+  margin-top: 0px !important;
+}
+.inputCupom::placeholder {
+  color: $grey;
+  font-size: 16px;
+  font-family: 'Nunito';
+}
+.containerCRM {
+  padding-inline: 10px !important;
+  border-radius: 8px !important;
+  width: 95% !important;
+  border: 1px solid $grey-light !important;
+  font-size: 16px !important;
+  display: flex;
+  color: $black !important;
+  margin-top: 0px !important;
+}
+.selectUF {
+  font-size: 12px !important;
+  border: none;
+  outline: none;
+  height: 30px;
+  border-right: 2.5px solid $grey-light;
+}
+.iconEye {
+  margin-left: -40px !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+  color: $grey !important;
+}
+.inputCRM {
+  padding-block: 18px !important;
+  border-radius: 8px !important;
+  margin-left: 5px !important;
+  width: 85% !important;
+  outline: none;
+  border: none;
+  font-size: 16px !important;
+  display: flex;
+  color: $black !important;
+  margin-top: 0px !important;
+}
+.containerCRM:focus-within {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
+.selectOption {
+  background-color: white;
+}
+.selectOption:focus {
+  background-color: #2a96ff;
+}
+.buttonBlue {
+  display: flex;
+  border-radius: 8px !important;
+  cursor: pointer;
+  padding-block: 15px !important;
+  width: fit-content;
+  margin-right: 0 !important;
+}
+.buttonBlue:hover {
+  background-color: $blue-dark;
+}
+.textButtonConfirm {
+  color: $white;
+  font-weight: 700;
+  padding: 0 40px;
+  margin-bottom: 0px !important;
+}
+.rowInput {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  max-height: fit-content !important;
+}
+.errorMessage {
+  color: #ff0a48 !important;
+  font-size: 10px !important;
+}
+.inputCupom:focus-within {
+  outline: none !important;
+  border: 2px solid $blue !important;
+}
