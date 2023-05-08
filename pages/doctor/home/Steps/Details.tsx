@@ -45,7 +45,6 @@ import {
 import FeedBack from "@components/layout/feedback";
 import EmptyComponent from "@components/layout/emptyComponent";
 import { AppState } from "src/store";
-import DialogAlert from "@components/meet/DialogAlert";
 import PlaceHolderAvatar from "@public/placeholderAvatar.png";
 import MailIcon from "@public/images/doctor/mail.svg";
 import PhoneIcon from "@public/images/doctor/phone.svg";
@@ -435,13 +434,6 @@ DetailsProps) {
         open={feedbackIsOpen}
         messageType={feedbackType}
         message={feedBack}
-      />
-      <DialogAlert
-        open={dialogAlertOpen}
-        title="Tem certeza que deseja encerrar o atendimento?"
-        message="Isso encerrará o atendimento no sistema e deixará este atendimento disponível na lista de histórico."
-        handleLogout={finishConsult}
-        handleClose={setDialogAlertOpen}
       />
       <Header returnStep={returnStep} />
 

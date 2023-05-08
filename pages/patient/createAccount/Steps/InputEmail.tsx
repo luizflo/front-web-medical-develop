@@ -10,25 +10,32 @@ import {
   Alert,
   Typography,
   useMediaQuery,
+  Box,
 } from "@mui/material";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import GoogleIcon from "../../../../public/GoogleLogo.svg";
-import Logo from "../../../../public/hauseyLogo.svg";
+import Logo from "../../../../public/icon.svg";
 import { useForm, Controller } from "react-hook-form";
 import { useFormik, Formik, Field, ErrorMessage, Form } from "formik";
 import * as yup from "yup";
 
-import { RemoveRedEye, VisibilityOff } from "@mui/icons-material";
+import {
+  RemoveRedEye,
+  VisibilityOff,
+  ArrowBackIos,
+  Close,
+} from "@mui/icons-material";
 import { ICreateAccountData, ILoginData } from "src/interfaces";
 import { postCreateAccount } from "src/api/patient";
 import { postLogin } from "src/api/auth";
 import { useNotification } from "@pankod/refine-core";
 import { useDispatch } from "react-redux";
 import { ActionTypes } from "src/store/user/types";
+import HeaderNavigation from "@components/booking/header";
 
-export default function InputEmail({ handlerClick }: any) {
+export default function InputEmail({ handlerClick, goBack }: any) {
   const [checked, setChecked] = React.useState<any>(false);
   const [error, setError] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string>("");
@@ -121,13 +128,8 @@ export default function InputEmail({ handlerClick }: any) {
   );
 
   return (
-    <Grid
-      container
-      direction={isSmallScreen ? "column" : "row"}
-      className={
-        isSmallScreen ? styles.containerRowMobile : styles.containerRow
-      }
-    >
+    <Grid container className={styles.container}>
+      <HeaderNavigation widthProgress={"10%"} />
       <Snackbar
         open={error}
         anchorOrigin={{ vertical: "top", horizontal: "right" }}
@@ -142,8 +144,11 @@ export default function InputEmail({ handlerClick }: any) {
         xs={12}
         md={12}
         item
-        // className={styles.content}
-        sx={{ alignItems: "center", paddingInline: "8vw", paddingTop: "10vh" }}
+        className={styles.content}
+        sx={{
+          paddingInline: { xs: "8vw", md: "20vw" },
+          width: { xs: "100vw", md: "50vw" },
+        }}
       >
         <Typography
           variant="subtitle1"
@@ -233,37 +238,35 @@ export default function InputEmail({ handlerClick }: any) {
             </div>
             <ErrorMessage name="passwordConfirmation" render={renderError} />
             <div className={styles.rowTerms}>
-              <Field type="checkbox" name="termsOfUse" />
+              <Field
+                type="checkbox"
+                name="termsOfUse"
+                style={{ color: "#12CC7E" }}
+              />
               <Typography variant="body1" className={styles.textTerms}>
                 Li e estou de acordo com os{" "}
+                <a
+                  className={styles.linkTerms}
+                  target={"_blank"}
+                  href="https://www.hausey.com.br/politicas-de-privacidade.pdf"
+                >
+                  Políticas de Privacidade
+                </a>{" "}
+                e
+                <a
+                  className={styles.linkTerms}
+                  target={"_blank"}
+                  href="https://www.hausey.com.br/termos-de-uso.pdf"
+                >
+                  Termos de Uso.
+                </a>
               </Typography>
-              <a
-                className={styles.linkTerms}
-                target={"_blank"}
-                href="https://www.hausey.com.br/politicas-de-privacidade.pdf"
-              >
-                Políticas de Privacidade
-              </a>
-
-              <Typography variant="body1" className={styles.textTerms}>
-                {" "}
-                e{" "}
-              </Typography>
-
-              <a
-                className={styles.linkTerms}
-                target={"_blank"}
-                href="https://www.hausey.com.br/termos-de-uso.pdf"
-              >
-                Termos de Uso.
-              </a>
             </div>
             <ErrorMessage name="termsOfUse" render={renderError} />
             <Button
               variant="contained"
               disableElevation
-              // type="submit"
-              onClick={() => router.replace("/patient/schedule")}
+              type="submit"
               size="large"
               className={styles.button}
             >

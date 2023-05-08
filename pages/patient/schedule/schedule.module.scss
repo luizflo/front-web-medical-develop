@@ -165,7 +165,7 @@
   width: 70px;
   border-radius: 35px;
   cursor: pointer;
-  background-color: $blue;
+  background-color: $green;
   border: none !important;
   align-items: center;
   justify-content: center;
@@ -247,7 +247,7 @@
 }
 
 .paymentButton:hover {
-  border: 1.5px solid $blue !important;
+  border: 1.5px solid $green !important;
 }
 
 .textButtonConfirm {
@@ -261,7 +261,7 @@
   border-radius: 8px;
   font-size: 16px !important;
   width: 100%;
-  background-color: $blue;
+  background-color: $green;
   align-items: center;
   font-weight: 700;
   cursor: pointer;
@@ -357,14 +357,14 @@
   margin-top: 20px;
 }
 .buttonSlotAvaliable {
-  border: 1.5px solid $blue;
+  border: 1.5px solid $green;
   border-radius: 5px;
   cursor: pointer;
   margin-right: 10px !important;
 }
 .buttonSlotSelected {
-  border: 1.5px solid $blue;
-  background-color: $blue !important;
+  border: 1.5px solid $green;
+  background-color: $green !important;
   border-radius: 5px;
   color: $white !important;
   cursor: pointer;
@@ -397,6 +397,6 @@
   background-clip: content-box;
 }
 .boxHours::-webkit-scrollbar-thumb{
-  background-color: $blue;
-  height: 20px !important;
+  background-color: $green;
+  height: 10px !important;
 }

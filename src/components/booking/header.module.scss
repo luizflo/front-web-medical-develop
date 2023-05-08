@@ -1,0 +1,30 @@
+@import "@styles/app.scss";
+
+.boxHeader {
+  display: flex;
+  background-color: $white;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  padding-block: 8px;
+  padding-inline: 25vw;
+}
+.buttonHeader {
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.buttonHeader:hover {
+  color: $blue-dark;
+}
+.progressDiv {
+  width: 100% !important;
+  height: 4px !important;
+  background-color: $grey-light !important;
+}
+
+.progressBar {
+  height: 4px !important;
+  background-color: $green !important;
+}

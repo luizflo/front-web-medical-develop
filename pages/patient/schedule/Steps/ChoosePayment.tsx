@@ -14,6 +14,7 @@ import { getPrices } from "src/api/appointment";
 import { IPrices, ISpecialties } from "src/interfaces";
 import { ArrowBackIos, Close } from "@mui/icons-material";
 import LogoHausey from "public/hauseyLogo.svg";
+import HeaderNavigation from "@components/booking/header";
 
 interface Methods {
   id: number;
@@ -112,7 +113,7 @@ export default function ChoosePayment({
 
   return (
     <Box className={styles.content}>
-      <HeaderSchedule />
+      <HeaderNavigation widthProgress={"90%"} />
 
       <Grid container>
         <Grid
@@ -235,7 +236,7 @@ export default function ChoosePayment({
                   style={{
                     marginTop: 0,
                     fontWeight: selectedMethod === item.id ? 700 : 400,
-                    color: selectedMethod === item.id ? "#0074e5" : "#848d9f",
+                    color: selectedMethod === item.id ? "#12CC7E" : "#848d9f",
                   }}
                 >
                   {item.name}

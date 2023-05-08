@@ -13,8 +13,6 @@ import dataProvider from '@pankod/refine-simple-rest'
 import { authProvider } from 'src/authProvider'
 import { Provider, useSelector } from 'react-redux'
 // import { MemedProvider } from '../src/hooks'
-import MemedProvider from 'src/providers/MemedProvider'
-import { PostList, PostCreate, PostEdit } from '@components/posts'
 import { Title, Sider, Layout, Header } from '@components/layout'
 import { ThemeProvider } from '@pankod/refine-mui'
 import { PersistGate } from 'redux-persist/lib/integration/react'
@@ -56,36 +54,34 @@ class MyApp extends App {
       <Provider store={store}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <MemedProvider>
-            {/* <GlobalStyles styles={{ html: { WebkitFontSmoothing: 'auto' } }} /> */}
+          {/* <GlobalStyles styles={{ html: { WebkitFontSmoothing: 'auto' } }} /> */}
 
-            <PersistGate loading={null} persistor={persistor}>
-              <RefineSnackbarProvider>
-                <Refine
-                  routerProvider={routerProvider}
-                  notificationProvider={notificationProvider}
-                  catchAll={<ErrorComponent />}
-                  dataProvider={dataProvider("")}
-                  resources={returnRoute(role)}
-                  authProvider={authProvider}
-                  Title={Title}
-                  Sider={Sider}
-                  Layout={Layout}
-                  Header={Header}
-                  LoginPage={Login}
-                >
-                  <Head>
-                    <title>Plataforma | Portal</title>
-                    <meta
-                      name="viewport"
-                      content="width=device-width, initial-scale=1.0"
-                    />
-                  </Head>
-                  <Component {...pageProps} />
-                </Refine>
-              </RefineSnackbarProvider>
-            </PersistGate>
-          </MemedProvider>
+          <PersistGate loading={null} persistor={persistor}>
+            <RefineSnackbarProvider>
+              <Refine
+                routerProvider={routerProvider}
+                notificationProvider={notificationProvider}
+                catchAll={<ErrorComponent />}
+                dataProvider={dataProvider("")}
+                resources={returnRoute(role)}
+                authProvider={authProvider}
+                Title={Title}
+                Sider={Sider}
+                Layout={Layout}
+                Header={Header}
+                LoginPage={Login}
+              >
+                <Head>
+                  <title>Plataforma | Portal</title>
+                  <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1.0"
+                  />
+                </Head>
+                <Component {...pageProps} />
+              </Refine>
+            </RefineSnackbarProvider>
+          </PersistGate>
         </ThemeProvider>
       </Provider>
     );

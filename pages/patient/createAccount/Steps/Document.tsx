@@ -10,51 +10,35 @@ import {
 } from "@mui/icons-material";
 import Logo from "../../../../public/hauseyLogo.svg";
 import arrow from "../../../../public/arrow.png";
+import HeaderNavigation from "@components/booking/header";
 
 import Image from "next/image";
 import { useRouter } from "next/router";
 
-export default function Document({ setCpf, onClick, cpf, goBack }: any) {
+export default function Document({
+  setCpf,
+  onClick,
+  cpf,
+  goBack,
+  setBirthdate,
+  phoneNumber,
+  setPhoneNumber,
+}: any) {
   const isSmallScreen = useMediaQuery((theme: any) =>
     theme.breakpoints.down("md")
   );
   const router = useRouter();
 
-  function HeaderNavigation() {
-    return (
-      <Box>
-        <Box
-          className={styles.boxHeader}
-          sx={{ paddingInline: isSmallScreen ? "10vw" : "25vw" }}
-        >
-          <ArrowBackIos
-            sx={{
-              color: "#0074E5",
-              cursor: "pointer",
-            }}
-            fontSize="large"
-            className={styles.buttonHeader}
-            onClick={() => goBack()}
-          />
-          <Logo className={styles.logo} />
-          <Close
-            sx={{
-              color: "#0074E5",
-            }}
-            fontSize="large"
-            className={styles.buttonHeader}
-            onClick={() => router.replace("/patient/login")}
-          />
-        </Box>
-        <div className={styles.progressDiv}>
-          <div className={styles.progressBar} style={{ width: "20%" }} />
-        </div>
-      </Box>
-    );
-  }
+  const handleDataClick = (date: string) => {
+    // setStartDate(date)
+    const splittedDate = date.split("/");
+    const [day, month, year] = splittedDate;
+    const dateOfBirth = year + "-" + month + "-" + day;
+    setBirthdate(dateOfBirth);
+  };
   return (
     <Grid className={styles.container}>
-      <HeaderNavigation />
+      <HeaderNavigation widthProgress={"20%"} goBack={goBack} />
       <Grid
         container
         className={styles.content2}
@@ -67,16 +51,39 @@ export default function Document({ setCpf, onClick, cpf, goBack }: any) {
             sx={{ marginTop: "50px !important" }}
             className={styles.title}
           >
-            Qual o seu CPF?
+            Informações do usuário
           </Typography>
+          <Typography className={styles.inputTitle}>CPF</Typography>
           <InputMask
             maskChar={null}
             mask={"999.999.999-99"}
             placeholder="Digite seu cpf"
             name="cpf"
             value={cpf}
-            className={styles.inputBlue}
+            className={styles.inputCupom}
             onChange={(e) => setCpf(e.target.value)}
+          />
+          <Typography className={styles.inputTitle}>
+            Data de nascimento:
+          </Typography>
+          <InputMask
+            mask={"99/99/9999"}
+            maskChar={null}
+            placeholder="dd/mm/aaaa"
+            className={styles.inputCupom}
+            style={{ paddingLeft: "20px" }}
+            onChange={(e) => handleDataClick(e.target.value)}
+            type={"text"}
+          />
+          <Typography className={styles.inputTitle}>Celular:</Typography>
+          <InputMask
+            maskChar={null}
+            mask={"(99) 99999-9999"}
+            placeholder="Digite o número com DDD"
+            name="phoneNumber"
+            value={phoneNumber}
+            className={styles.inputCupom}
+            onChange={(e) => setPhoneNumber(e.target.value)}
           />
         </Grid>
         <Box className={styles.alignCircleButton}>

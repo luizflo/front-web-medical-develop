@@ -18,6 +18,7 @@ import { UserState } from "src/store/user/types";
 import { getSlots, getSpecialties } from "src/api/appointment";
 import { ISpecialties, ISpecialty } from "src/interfaces";
 import LogoHausey from "public/hauseyLogo.svg";
+import HeaderNavigation from "@components/booking/header";
 
 export default function ChooseGroup({
   onClick,
@@ -118,7 +119,8 @@ export default function ChooseGroup({
 
   return (
     <Box className={styles.content}>
-      <HeaderSchedule />
+      {/* <HeaderSchedule /> */}
+      <HeaderNavigation widthProgress={"40%"} />
 
       <Grid container>
         <Grid
@@ -163,7 +165,7 @@ export default function ChooseGroup({
           <button
             className={styles.buttonForward}
             onClick={() => onClick()}
-            style={{ backgroundColor: buttonDisabled ? "#848d9f" : "#0074e5" }}
+            style={{ backgroundColor: buttonDisabled ? "#848d9f" : "#12CC7E" }}
             disabled={buttonDisabled}
           >
             <ArrowForwardIos sx={{ color: "white" }} fontSize="large" />

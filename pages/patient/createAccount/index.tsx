@@ -16,6 +16,7 @@ import { ActionTypes, UserState } from "src/store/user/types";
 import { sexType } from "src/interfaces";
 import FeedBack from "@components/layout/feedback";
 import { AppState } from "src/store";
+import { useRouter } from "next/router";
 
 export default function createAccount() {
   const [step, setStep] = useState<number>(1);
@@ -28,6 +29,7 @@ export default function createAccount() {
   const { userLogged, role } = useSelector<AppState, UserState>(
     (state: any) => state.userState
   );
+  const router = useRouter();
   const [gender, setGender] = useState<sexType | "">("");
   const [birthdate, setBirthdate] = useState<string>("");
   const dispatch = useDispatch();
@@ -42,7 +44,7 @@ export default function createAccount() {
 
   const patchUser = async () => {
     setIsLoading(true);
-    let sex = gender === "Feminino" ? "F" : "M";
+    let sex = "M";
     let phoneNumberOnly = phoneNumber.replace(/[^\d]/g, "");
     // let phoneNumberOnly = phoneNumber;
     const dataBody: IUpdateAccountData = {
@@ -62,26 +64,28 @@ export default function createAccount() {
       setFeedbackIsOpen(true);
       setFeedback("Cadastrado concluído com sucesso!");
       setIsLoading(false);
-      setStep(7);
+      router.push("/patient/schedule");
     }
   };
 
   const renderStep = () => {
     switch (step) {
       case 1:
-        return <InputEmail handlerClick={handlerClick} />;
+        return <InputEmail handlerClick={handlerClick} goBack={goBack} />;
       case 2:
-        return <VerifiedEmail onClick={handlerClick} />;
-      case 3:
         return (
           <Document
-            onClick={handlerClick}
+            onClick={patchUser}
             setCpf={setCpf}
             cpf={cpf}
             goBack={goBack}
+            phoneNumber={phoneNumber}
+            isLoading={isLoading}
+            setPhoneNumber={setPhoneNumber}
+            setBirthdate={setBirthdate}
           />
         );
-      case 4:
+      case 3:
         return (
           <InputDate
             onClick={handlerClick}
@@ -89,7 +93,7 @@ export default function createAccount() {
             goBack={goBack}
           />
         );
-      case 5:
+      case 4:
         return (
           <InputGender
             onClick={handlerClick}
@@ -98,7 +102,7 @@ export default function createAccount() {
             goBack={goBack}
           />
         );
-      case 6:
+      case 5:
         return (
           <InputContact
             onClick={patchUser}
@@ -108,7 +112,7 @@ export default function createAccount() {
             goBack={goBack}
           />
         );
-      case 7:
+      case 6:
         return <Finish />;
     }
   };

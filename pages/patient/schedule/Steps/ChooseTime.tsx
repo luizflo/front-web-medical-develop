@@ -17,6 +17,7 @@ import LogoHausey from "public/hauseyLogo.svg";
 import user from "public/placeholderAvatar.png";
 import { ISlot, ISpecialties, SlotsArr } from "src/interfaces";
 import { formatDateForSlots } from "@components/utils";
+import HeaderNavigation from "@components/booking/header";
 
 type ChooseTimeProps = {
   onClick: () => void;
@@ -108,7 +109,7 @@ export default function ChooseTime({
 
   return (
     <Box className={styles.content}>
-      <HeaderSchedule />
+      <HeaderNavigation widthProgress={"80%"} />
       <Grid container sx={{ display: "flex", flexDirection: "column" }}>
         {isLoading ? (
           <CircularProgress
@@ -183,24 +184,6 @@ export default function ChooseTime({
                           fontWeight={"medium"}
                           className={styles.textGrey}
                         >
-                          Idiomas:
-                        </Typography>
-                        <Box sx={{ display: "flex" }}>
-                          <Typography
-                            variant="h4"
-                            fontWeight={"medium"}
-                            className={styles.textBlack}
-                          >
-                            Português
-                          </Typography>
-                        </Box>
-                      </Box>
-                      <Box sx={{ marginTop: "20px" }}>
-                        <Typography
-                          variant="h4"
-                          fontWeight={"medium"}
-                          className={styles.textGrey}
-                        >
                           Preço da consulta:
                         </Typography>
                         <Typography
@@ -239,7 +222,11 @@ export default function ChooseTime({
                                 // alignItems: "center",
                               }}
                             >
-                              <Typography variant="h4" fontWeight={"bold"}>
+                              <Typography
+                                variant="h4"
+                                fontWeight={"bold"}
+                                sx={{ color: "#1E1E1E" }}
+                              >
                                 {/* {formatDateForSlots(slot.formattedDate, "week")} */}
                                 {slot.formattedDate}
                               </Typography>
@@ -277,6 +264,7 @@ export default function ChooseTime({
                                       key={index}
                                       sx={{
                                         fontSize: "12px",
+                                        color: "#1E1E1E",
                                         marginBottom: "10px",
                                       }}
                                       onClick={() =>

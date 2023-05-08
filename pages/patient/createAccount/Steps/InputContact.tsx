@@ -22,6 +22,7 @@ import iconCalendary from "../../../../public/iconCalendary.svg";
 import arrow from "../../../../public/arrow.png";
 import Logo from "../../../../public/hauseyLogo.svg";
 import { useRouter } from "next/router";
+import HeaderNavigation from "@components/booking/header";
 
 export default function InputContact({
   onClick,
@@ -35,41 +36,9 @@ export default function InputContact({
     theme.breakpoints.down("md")
   );
   const router = useRouter();
-  function HeaderNavigation() {
-    return (
-      <Box>
-        <Box
-          className={styles.boxHeader}
-          sx={{ paddingInline: isSmallScreen ? "10vw" : "25vw" }}
-        >
-          <ArrowBackIos
-            sx={{
-              color: "#0074E5",
-              cursor: "pointer",
-            }}
-            fontSize="large"
-            className={styles.buttonHeader}
-            onClick={() => goBack()}
-          />
-          <Logo className={styles.logo} />
-          <Close
-            sx={{
-              color: "#0074E5",
-            }}
-            fontSize="large"
-            className={styles.buttonHeader}
-            onClick={() => router.replace("/patient/login")}
-          />
-        </Box>
-        <div className={styles.progressDiv}>
-          <div className={styles.progressBar} style={{ width: "90%" }} />
-        </div>
-      </Box>
-    );
-  }
   return (
     <Grid className={styles.container}>
-      <HeaderNavigation />
+      <HeaderNavigation widthProgress={"60%"} goBack={goBack} />
       <Grid
         container
         className={styles.content2}

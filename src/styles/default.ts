@@ -5,6 +5,9 @@ const breakpoints = createBreakpoints({});
 
 const theme = createTheme({
   palette: {
+    primary: {
+      main: "#12CC7E",
+    },
     error: {
       main: "#FF4545",
       light: "#FF4545",
@@ -76,6 +79,7 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           textTransform: "none",
+          color: "#FFFF",
         },
       },
     },

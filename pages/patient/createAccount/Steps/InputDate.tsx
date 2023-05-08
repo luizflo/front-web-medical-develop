@@ -15,6 +15,7 @@ import iconCalendary from "../../../../public/iconCalendary.svg";
 import Logo from "../../../../public/hauseyLogo.svg";
 import arrow from "../../../../public/arrow.png";
 import { useRouter } from "next/router";
+import HeaderNavigation from "@components/booking/header";
 
 export default function InputDate({ onClick, goBack, setBirthdate }: any) {
   const [startDate, setStartDate] = useState<any>(new Date(1999, 0, 1));
@@ -29,41 +30,9 @@ export default function InputDate({ onClick, goBack, setBirthdate }: any) {
     const dateOfBirth = year + "-" + month + "-" + day;
     setBirthdate(dateOfBirth);
   };
-  function HeaderNavigation() {
-    return (
-      <Box>
-        <Box
-          className={styles.boxHeader}
-          sx={{ paddingInline: isSmallScreen ? "10vw" : "25vw" }}
-        >
-          <ArrowBackIos
-            sx={{
-              color: "#0074E5",
-              cursor: "pointer",
-            }}
-            fontSize="large"
-            className={styles.buttonHeader}
-            onClick={() => goBack()}
-          />
-          <Logo className={styles.logo} />
-          <Close
-            sx={{
-              color: "#0074E5",
-            }}
-            fontSize="large"
-            className={styles.buttonHeader}
-            onClick={() => router.replace("/patient/login")}
-          />
-        </Box>
-        <div className={styles.progressDiv}>
-          <div className={styles.progressBar} style={{ width: "50%" }} />
-        </div>
-      </Box>
-    );
-  }
   return (
     <Grid className={styles.container}>
-      <HeaderNavigation />
+      <HeaderNavigation widthProgress={"40%"} goBack={goBack} />
       <Grid
         container
         className={styles.content2}
