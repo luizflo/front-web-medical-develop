@@ -37,11 +37,9 @@ export default function HeaderNavigation({ widthProgress, goBack }: any) {
         <Image src="/icon.svg" className={styles.logo} width={40} height={40} />
         <Close
           sx={{
-            color: "#1E1E1E",
+            color: "#FFFF",
           }}
           fontSize="large"
-          className={styles.buttonHeader}
-          onClick={() => router.replace("/patient/login")}
         />
       </Box>
       <div className={styles.progressDiv}>
