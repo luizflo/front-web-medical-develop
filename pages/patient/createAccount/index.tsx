@@ -18,7 +18,7 @@ import FeedBack from "@components/layout/feedback";
 import { AppState } from "src/store";
 import { useRouter } from "next/router";
 
-export default function createAccount() {
+export default function CreateAccount() {
   const [step, setStep] = useState<number>(1);
   const [feedBack, setFeedback] = useState<string>("");
   const [feedbackIsOpen, setFeedbackIsOpen] = useState<boolean>(false);
