@@ -3,7 +3,7 @@ import { useRouterContext, TitleProps } from '@pankod/refine-core'
 import { Button, Grid, Typography } from '@pankod/refine-mui'
 import iconUser from '../../../../public/images/menu/user.png'
 import iconMedal from '../../../../public/images/menu/medal.svg'
-import Logo from "public/Logodefault.svg";
+import Logo from "public/LogoDefault.svg";
 
 import Image from "next/image";
 import styles from "./title.module.scss";
