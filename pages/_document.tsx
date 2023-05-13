@@ -8,6 +8,7 @@ class WebAppDocument extends Document {
         <Head />
         {/* <link rel="stylesheet" href="/_next/static/style.css" /> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <meta property="description" content="Agendamento de consultas" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -22,7 +23,7 @@ class WebAppDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
