@@ -8,7 +8,7 @@ import {
   Box,
   useMediaQuery,
 } from "@mui/material";
-import Logo from "public/hauseyLogo.svg";
+import Logo from "public/LogoDefault.svg";
 import Image from "next/image";
 import { useAuthenticated, usePermissions } from "@pankod/refine-core";
 import { parseCookies } from "nookies";
@@ -21,19 +21,8 @@ export default function Loading({ onClick }: any) {
     theme.breakpoints.down("sm")
   );
   // const {isError: erro, data: dataPermissions, isSuccess: success} = usePermissions()
-  if (isSuccess) {
-    if (role === "patient") {
-      router.replace("/home");
-    } else if (role === "manager") {
-      router.replace("/home-manager");
-    } else {
-      router.replace("/home-doctor");
-    }
-    // router.replace('/home')
-  }
-  if (isError) {
-    router.push("/patient/login");
-  }
+
+  router.push("/patient/createAccount");
   // if (isSmallScreen) {
   //   window.location.replace("https://hausey.net/index.php/app/");
   // }
