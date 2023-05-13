@@ -2,6 +2,7 @@
   "name": "hausey-web-front",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.demo.reforcemed.com.br/",
   "scripts": {
     "dev": "yarn open-browser && next dev -p 3001",
     "build": "next build",
