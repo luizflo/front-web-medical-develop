@@ -409,7 +409,7 @@ DetailsProps) {
             disabled={callOnGoing}
             variant="contained"
             sx={{
-              backgroundColor: callOnGoing ? "#848d9f !important" : "#0074e5",
+              backgroundColor: callOnGoing ? "#848d9f !important" : "#12CC7E",
             }}
             className={styles.buttonEnterDetailsConsult}
             onClick={() => clickEnterAppointment()}

@@ -395,7 +395,7 @@ export default function homeSecretary() {
             fontWeight={"medium"}
             style={{
               cursor: "pointer",
-              color: "#0074e5",
+              color: "#12CC7E",
             }}
             onClick={() => updateAfterDesignation()}
           >
@@ -447,7 +447,7 @@ export default function homeSecretary() {
             fontWeight={"medium"}
             style={{
               cursor: "pointer",
-              color: "#0074e5",
+              color: "#12CC7E",
             }}
             onClick={() => updateAfterDesignation()}
           >

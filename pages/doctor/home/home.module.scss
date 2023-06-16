@@ -86,7 +86,7 @@
   font-weight: 700 !important;
   font-size: 16px !important;
   text-align: center !important;
-  color: $blue !important;
+  color: $green !important;
   margin: 0 !important;
   margin-top: 30px !important;
   cursor: pointer !important;
@@ -116,7 +116,7 @@
 .buttonConfirm {
   display: flex !important;
   border-radius: 8px !important;
-  background-color: $blue !important;
+  background-color: $green !important;
   align-items: center !important;
   cursor: pointer !important;
   color: $white !important;
@@ -128,13 +128,13 @@
 }
 
 .buttonConfirm:hover {
-  background-color: $blue-dark !important;
+  background-color: $green-dark !important;
 }
 
 .buttonSchedule {
   display: flex !important;
   border-radius: 8px !important;
-  background-color: $blue !important;
+  background-color: $green !important;
   cursor: pointer !important;
   padding: 10px !important;
   width: fit-content !important;
@@ -162,12 +162,12 @@
 }
 
 .textRespond {
-  color: $blue;
+  color: $green;
   margin-bottom: 0px !important;
   cursor: pointer;
 }
 .textRespond:hover {
-  color: $blue-dark;
+  color: $green-dark;
   text-decoration: underline;
 }
 .textGrey {
@@ -179,7 +179,7 @@
   margin-bottom: 0px !important;
 }
 .textBlue {
-  color: $blue;
+  color: $green;
   margin-bottom: 0px !important;
 }
 
@@ -341,7 +341,7 @@
 }
 
 .textDay {
-  color: $blue !important;
+  color: $green !important;
   font-weight: 700 !important;
   font-size: 18px !important;
 }
@@ -414,7 +414,7 @@
 .buttonEventList {
   display: flex !important;
   border-radius: 8px !important;
-  background-color: $blue !important;
+  background-color: $green !important;
   cursor: pointer !important;
   padding: 10px !important;
   width: fit-content !important;
@@ -422,7 +422,7 @@
 
 .buttonEventList:hover {
   box-shadow: 0px 0px 6px 1px #d3d3d3 !important;
-  background-color: $blue-dark !important;
+  background-color: $green-dark !important;
 }
 
 .textButtonEventList {
@@ -473,7 +473,7 @@
 }
 
 .boldBlue {
-  color: $blue;
+  color: $green;
   font-weight: 700 !important;
   margin-left: 5px !important;
   font-size: 12px;
@@ -530,7 +530,7 @@
 .buttonBlue {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 10px;
   margin-top: 0px;
@@ -542,7 +542,7 @@
 .buttonSchedule {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 10px;
   width: fit-content;
@@ -591,7 +591,7 @@
 
 .cardItensBlue {
   border-radius: 10px;
-  background-color: $blue;
+  background-color: $green;
   box-shadow: 0px 0px 6px 0px #d3d3d3;
   margin: 10px;
   padding-block: 20px;
@@ -629,7 +629,7 @@
 }
 
 .boxCardBook {
-  background-color: $blue;
+  background-color: $green;
   display: flex;
   flex-direction: column;
   width: 25vw;
@@ -644,7 +644,7 @@
 }
 
 .boxCardBook:hover {
-  background-color: $blue-dark;
+  background-color: $green-dark;
 }
 
 .boxCard:hover .arrowBlue {
@@ -705,7 +705,7 @@
   font-weight: 700 !important;
   font-size: 14px !important;
   text-align: center;
-  color: $blue;
+  color: $green;
   padding-inline: 50px;
   margin: 0 !important;
   margin-top: 20px !important;
@@ -728,7 +728,7 @@
 }
 
 .boldBlue {
-  color: $blue;
+  color: $green;
   font-weight: 700 !important;
   margin-left: 5px !important;
   margin-bottom: 0px !important;
@@ -824,13 +824,13 @@
   top: 64px;
   background: #d9e5f0;
   border-radius: 10px;
-  color: $blue;
+  color: $green;
   margin-right: 8px !important;
   margin-bottom: 10px;
 }
 
 .tagPlan {
-  background: $blue;
+  background: $green;
   border-radius: 16px;
   color: white;
   // margin-bottom: 10px;

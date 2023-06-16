@@ -93,7 +93,7 @@ export default function Document({
             disabled={cpf.length === 14 ? false : true}
             size="large"
             style={{
-              backgroundColor: cpf.length === 14 ? "#0074e5" : "#848d9f",
+              backgroundColor: cpf.length === 14 ? "#12CC7E" : "#848d9f",
             }}
             className={styles.buttonCircle}
             onClick={() => onClick()}

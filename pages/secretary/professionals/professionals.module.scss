@@ -106,7 +106,7 @@
 .buttonBlueWidth {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 15px;
   justify-content: center;
@@ -138,7 +138,7 @@
 .textButtonScala:hover,
 .buttonBlueWidth:hover,
 .buttonBlue:hover {
-  background-color: $blue-dark;
+  background-color: $green-dark;
 }
 
 .center {
@@ -158,8 +158,8 @@
 }
 
 .hourBlue {
-  color: $blue;
-  background-color: $blue-light;
+  color: $green;
+  background-color: $green-light;
   margin: 5px 15px;
   border-radius: 5px;
   padding: 3px;
@@ -167,7 +167,7 @@
 }
 
 .circle {
-  background-color: $blue-light;
+  background-color: $green-light;
   border-radius: 50%;
   padding: 5px;
   justify-self: center;
@@ -175,7 +175,7 @@
   height: 25px;
   width: 25px;
 
-  color: $blue;
+  color: $green;
 }
 
 .circle:hover {
@@ -221,8 +221,8 @@
 }
 
 .hourBusy {
-  background-color: $blue;
-  color: $blue;
+  background-color: $green;
+  color: $green;
   margin: 1px;
   height: 20px;
   max-width: 75%;
@@ -260,7 +260,7 @@
 
 .cellLink {
   font-size: 14px;
-  color: $blue;
+  color: $green;
 }
 
 .modal {
@@ -287,7 +287,7 @@
 
 .containerCRM:focus-within {
   outline: none !important;
-  border: 2px solid $blue !important;
+  border: 2px solid $green !important;
 }
 
 
@@ -335,7 +335,7 @@
   top: 64px;
   background: #d9e5f0;
   border-radius: 8px;
-  color: $blue;
+  color: $green;
   margin-right: 8px;
   font-weight: bold;
   font-size: 14px;
@@ -369,7 +369,7 @@
 }
 
 .boldBlue {
-  color: $blue;
+  color: $green;
   font-weight: 700;
   margin-left: 5px;
   font-size: 12px;
@@ -386,9 +386,9 @@
 .cardTag {
   font-size: 12px;
   font-weight: 700;
-  background-color: $blue-light;
+  background-color: $green-light;
   padding-inline: 15px;
-  color: $blue;
+  color: $green;
   padding-block: 1px;
   margin-right: 8px !important;
   border-radius: 8px;
@@ -397,7 +397,7 @@
 .cardMemed {
   font-size: 12px;
   font-weight: 700;
-  color: $blue;
+  color: $green;
   padding-block: 1px;
   margin-right: 8px !important;
   border-radius: 8px;
@@ -429,7 +429,7 @@
 
 
 .textBlue {
-  color: $blue;
+  color: $green;
   font-size: 14px;
   margin-bottom: 0px !important;
 }
@@ -472,7 +472,7 @@
   margin-bottom: 0px !important;
 }
 .textBlue {
-  color: $blue;
+  color: $green;
   margin-bottom: 0px !important;
 }
 .arrow {

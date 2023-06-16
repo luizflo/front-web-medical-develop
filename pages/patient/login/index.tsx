@@ -113,7 +113,7 @@ export default function Login() {
                 // href="/patient/createAccount"
                 onClick={() => router.push("/secretary/login")}
                 style={{
-                  color: "#0074e5",
+                  color: "#12CC7E",
                   fontWeight: 600,
                   cursor: "pointer",
                   paddingLeft: 5,
@@ -128,7 +128,7 @@ export default function Login() {
                 // href="/patient/createAccount"
                 onClick={() => handleLoginDoctor()}
                 style={{
-                  color: "#0074e5",
+                  color: "#12CC7E",
                   fontWeight: 600,
                   cursor: "pointer",
                   paddingLeft: 5,

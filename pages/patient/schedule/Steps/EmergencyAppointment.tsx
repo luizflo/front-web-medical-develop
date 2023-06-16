@@ -188,7 +188,7 @@ export default function EmergencyAppointment({ returnStep, onClick }: Props) {
               className={styles.textBlack}
             >
               O que é o{" "}
-              <span style={{ color: "#0074e5", fontWeight: 700 }}>
+              <span style={{ color: "#12CC7E", fontWeight: 700 }}>
                 Pronto Atendimento?
               </span>
             </Typography>

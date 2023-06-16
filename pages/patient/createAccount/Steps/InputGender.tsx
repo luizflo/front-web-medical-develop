@@ -93,7 +93,7 @@ export default function InputGender({
             style={{
               border:
                 gender === "Feminino"
-                  ? "2px solid #0074e5"
+                  ? "2px solid #12CC7E"
                   : "1.5px solid #dadee6",
             }}
           >
@@ -108,7 +108,7 @@ export default function InputGender({
               fontWeight={"medium"}
               className={styles.textButton}
               style={{
-                color: gender === "Feminino" ? "#0074e5 " : "#848d9f",
+                color: gender === "Feminino" ? "#12CC7E " : "#848d9f",
               }}
             >
               Feminino
@@ -120,7 +120,7 @@ export default function InputGender({
             style={{
               border:
                 gender === "Masculino"
-                  ? "2px solid #0074e5"
+                  ? "2px solid #12CC7E"
                   : "1.5px solid #dadee6",
             }}
           >
@@ -134,7 +134,7 @@ export default function InputGender({
               fontWeight={"medium"}
               className={styles.textButton}
               style={{
-                color: gender === "Masculino" ? "#0074e5 " : "#848d9f",
+                color: gender === "Masculino" ? "#12CC7E " : "#848d9f",
               }}
             >
               Masculino

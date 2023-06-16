@@ -48,7 +48,7 @@
 }
 .selectSpecialty:focus-within{
   outline: none !important;
-  border: 2px solid $blue !important;
+  border: 2px solid $green !important;
 }
 .selectLanguage{
   outline: none;
@@ -63,7 +63,7 @@
 }
 .selectLanguage:focus-within{
   outline: none !important;
-  border: 2px solid $blue !important;
+  border: 2px solid $green !important;
 }
 .inputCupom {
   padding-block: 18px !important;
@@ -118,7 +118,7 @@
 }
 .containerCRM:focus-within {
   outline: none !important;
-  border: 2px solid $blue !important;
+  border: 2px solid $green !important;
 }
 .selectOption {
   background-color: white;
@@ -135,7 +135,7 @@
   margin-right: 0 !important;
 }
 .buttonBlue:hover {
-  background-color: $blue-dark;
+  background-color: $green-dark;
 }
 .textButtonConfirm {
   color: $white;
@@ -155,5 +155,5 @@
 }
 .inputCupom:focus-within {
   outline: none !important;
-  border: 2px solid $blue !important;
+  border: 2px solid $green !important;
 }

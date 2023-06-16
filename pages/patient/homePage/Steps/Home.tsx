@@ -249,7 +249,7 @@ export default function Home({
         sx={{ display: "flex", flexDirection: { xs: "column", md: "row" } }}
       >
         <WideCard
-          color="#0074e5"
+          color="#12CC7E"
           handleClick={() => console.log("Clicked")}
           first
           title="Avalie sua saúde gratuitamente"

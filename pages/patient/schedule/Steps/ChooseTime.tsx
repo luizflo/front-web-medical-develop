@@ -317,12 +317,12 @@ export default function ChooseTime({
                       marginTop: "10px",
                       backgroundColor:
                         item === selectedDate && sub === selectedHour
-                          ? "#0074e5"
+                          ? "#12CC7E"
                           : "white",
                       color:
                         item === selectedDate && sub === selectedHour
                           ? "white"
-                          : "#0074e5",
+                          : "#12CC7E",
                       paddingInline: "25px",
                       borderWidth: "1.5px",
                     }}

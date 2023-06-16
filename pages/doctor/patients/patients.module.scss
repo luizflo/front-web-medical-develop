@@ -84,7 +84,7 @@
 .buttonBlue {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 15px;
   width: fit-content;
@@ -106,7 +106,7 @@
   margin-bottom: 0px !important;
 }
 .textBlue {
-  color: $blue;
+  color: $green;
   margin-bottom: 0px !important;
 }
 .historyListItem {
@@ -171,7 +171,7 @@
 
 .cellLink {
   font-size: 14px !important;
-  color: $blue;
+  color: $green;
   text-transform: none;
 }
 .cellLink:hover {
@@ -236,13 +236,13 @@
   top: 64px;
   background: #d9e5f0;
   border-radius: 10px;
-  color: $blue;
+  color: $green;
   margin-right: 8px !important;
   margin-bottom: 10px;
 }
 
 .tagPlan {
-  background: $blue;
+  background: $green;
   border-radius: 16px;
   color: white;
   // margin-bottom: 10px;
@@ -291,13 +291,13 @@
   font-size: 16px;
   line-height: 22px;
   margin-left: 10px !important;
-  color: $blue;
+  color: $green;
 }
 
 .linkMessage {
   font-size: 14px;
   line-height: 22px;
-  color: $blue;
+  color: $green;
   margin-top: 28px;
 }
 
@@ -366,7 +366,7 @@
   height: 80px;
 }
 .textRespond {
-  color: $blue;
+  color: $green;
   margin-bottom: 0px !important;
   cursor: pointer;
 }

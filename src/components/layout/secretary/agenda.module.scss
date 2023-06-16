@@ -75,7 +75,7 @@
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  color: $blue;
+  color: $green;
   margin: 0 !important;
   margin-top: 10px !important;
 }
@@ -114,7 +114,7 @@
 .buttonConfirm {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   align-items: center;
   cursor: pointer;
   padding-block: 10px;
@@ -124,7 +124,7 @@
 .buttonSchedule {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 10px;
   width: fit-content;
@@ -147,7 +147,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  color: $blue;
+  color: $green;
   margin: 0 !important;
 }
 
@@ -244,7 +244,7 @@
 .buttonEventList {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding-block: 10px;
   padding-inline: 15px;
@@ -253,20 +253,20 @@
 
 .buttonEventList:hover {
   box-shadow: 0px 0px 6px 1px #d3d3d3;
-  background-color: $blue-dark;
+  background-color: $green-dark;
 }
 
 .textButtonEventList:hover {
-  background-color: $blue-dark;
+  background-color: $green-dark;
 }
 
 .buttonEventListConfirmed {
   display: flex;
   border-radius: 8px;
-  // background-color: $blue;
+  // background-color: $green;
   cursor: pointer;
   font-size: 14px;
-  color: $blue;
+  color: $green;
   font-weight: 600;
 }
 
@@ -339,7 +339,7 @@
 .buttonDialog {
   padding-inline: 50px;
   padding-block: 10px;
-  background-color: $blue;
+  background-color: $green;
   border-radius: 8px;
   color: white;
   text-transform: none;
@@ -347,7 +347,7 @@
 }
 
 .buttonDialog:hover {
-  background-color: $blue-dark;
+  background-color: $green-dark;
   box-shadow: 0px 0px 6px 1px #d3d3d3;
 }
 
@@ -363,10 +363,10 @@
   text-transform: none;
   padding-inline: 0px;
   // margin-top: 5px;
-  color: $blue;
+  color: $green;
   cursor: pointer;
 }
 .buttonSend:hover {
-  color: $blue-dark;
+  color: $green-dark;
   transform: scale(1.05);
 }

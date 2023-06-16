@@ -90,7 +90,7 @@ export default function Login() {
           <Image alt="no-alt" src={Logo} className={styles.logo} />
           <Typography className={styles.subtitle}>
             Não tenho uma conta?
-            <a style={{ color: '#0074e5', fontWeight: 600, cursor: 'pointer' }}>
+            <a style={{ color: '#12CC7E', fontWeight: 600, cursor: 'pointer' }}>
               {' '}
               Crie uma conta
             </a>

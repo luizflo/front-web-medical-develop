@@ -34,7 +34,7 @@
   top: 64px;
   background: #d9e5f0;
   border-radius: 10px;
-  color: $blue;
+  color: $green;
   margin-left: 10px !important;
   margin-bottom: 10px;
 }
@@ -75,7 +75,7 @@
 
 .cardConsult:hover {
   box-shadow: 0px 0px 6px 2px #d3d3d3;
-  border: 1.5px solid $blue;
+  border: 1.5px solid $green;
 }
 
 .cardConsult2 {
@@ -127,7 +127,7 @@
 
 .cardItensBlue {
   border-radius: 10px;
-  background-color: $blue;
+  background-color: $green;
   box-shadow: 0px 0px 6px 0px #d3d3d3;
   margin: 10px;
   padding-block: 20px;
@@ -163,7 +163,7 @@
   color: $black;
 }
 .textBlue {
-  color: $blue;
+  color: $green;
 }
 
 .textWhite {
@@ -201,7 +201,7 @@
 }
 
 .boxCardBook {
-  background-color: $blue;
+  background-color: $green;
   // width: 25vw;
   min-height: max-content;
   cursor: pointer;
@@ -214,7 +214,7 @@
 }
 
 .boxCardBook:hover {
-  background-color: $blue-dark;
+  background-color: $green-dark;
 }
 
 .boxCard:hover .arrowBlue {
@@ -280,7 +280,7 @@
   font-weight: 700 !important;
   font-size: 14px !important;
   text-align: center;
-  color: $blue;
+  color: $green;
   padding-inline: 20px;
   margin: 0 !important;
   margin-top: 20px !important;
@@ -303,7 +303,7 @@
 }
 
 .boldBlue {
-  color: $blue;
+  color: $green;
   font-weight: 700 !important;
   margin-left: 5px !important;
   font-size: 12px;
@@ -370,7 +370,7 @@
 .buttonBlue {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 10px;
   margin-top: 0px;
@@ -381,7 +381,7 @@
 
 .buttonConfirm {
   border-radius: 8px !important;
-  background-color: $blue;
+  background-color: $green;
   margin-top: 10px !important;
   cursor: pointer;
   font-size: 16px !important;
@@ -392,7 +392,7 @@
 .buttonSchedule {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 10px;
   width: fit-content;
@@ -427,7 +427,7 @@
 }
 
 .buttonCard {
-  color: $blue;
+  color: $green;
 }
 
 .arrowBlue {
@@ -446,7 +446,7 @@
 }
 
 .textRespond {
-  color: $blue;
+  color: $green;
   margin-bottom: 0px !important;
   cursor: pointer;
 }
@@ -455,7 +455,7 @@
   font-style: normal !important;
   font-weight: 600 !important;
   font-size: 14px !important;
-  color: $blue;
+  color: $green;
   margin: 0 !important;
   margin-right: 5px !important;
 }
@@ -494,11 +494,11 @@
 
 .buttonSchedule:hover,
 .buttonConfirm:hover {
-  background-color: $blue-dark;
+  background-color: $green-dark;
 }
 
 .textLinkDetails:hover {
-  color: $blue-dark;
+  color: $green-dark;
 }
 .notificationIcon {
   cursor: pointer;

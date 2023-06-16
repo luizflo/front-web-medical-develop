@@ -151,10 +151,10 @@ export const RegisterProfessional = ({
     justifyContent: "center",
     alignItems: "center",
     ...(ownerState.active && {
-      backgroundColor: "#0074e5",
+      backgroundColor: "#12CC7E",
     }),
     ...(ownerState.completed && {
-      backgroundColor: "#0074e5",
+      backgroundColor: "#12CC7E",
     }),
   }));
   const theme = useTheme();

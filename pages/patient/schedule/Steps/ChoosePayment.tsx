@@ -222,7 +222,7 @@ export default function ChoosePayment({
                 marginTop: 10,
                 border:
                   selectedMethod === item.id
-                    ? "2px solid #0074e5"
+                    ? "2px solid #12CC7E"
                     : "1.5px solid #dadee5",
               }}
               key={item.id}

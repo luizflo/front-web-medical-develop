@@ -303,7 +303,7 @@ export default function HomeScreen({ onClick }: any) {
               disabled={callOnGoing}
               className={styles.buttonConfirm}
               sx={{
-                backgroundColor: callOnGoing ? "#848d9f !important" : "#0074e5",
+                backgroundColor: callOnGoing ? "#848d9f !important" : "#12CC7E",
               }}
               onClick={() => clickEnterAppointment(futureAppointments[0])}
             >
@@ -359,7 +359,7 @@ export default function HomeScreen({ onClick }: any) {
             fontWeight={"medium"}
             style={{
               cursor: "pointer",
-              color: "#0074e5",
+              color: "#12CC7E",
             }}
             onClick={() => updateAfterDesignation()}
           >

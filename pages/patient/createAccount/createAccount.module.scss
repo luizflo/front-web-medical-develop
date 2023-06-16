@@ -165,7 +165,7 @@
 
 .forgotPassword {
   font-size: 14px !important;
-  color: $blue !important;
+  color: $green !important;
   margin-bottom: 0px !important;
   margin-top: 8px !important;
   font-weight: 600 !important;
@@ -258,7 +258,7 @@
 
 .linkLogin {
   margin-top: 20px !important;
-  color: $blue !important;
+  color: $green !important;
   padding-left: 6px !important;
   font-size: 12px !important;
 }
@@ -306,8 +306,11 @@
   border-radius: 50% !important;
   padding: 10px !important;
   font-size: 14px !important;
-  // background-color: $blue !important;
+  // background-color: $green !important;
   width: fit-content !important;
+  background-color: $green;
+  color: $green;
+  border-color: $green;
 }
 
 .buttonRounded {
@@ -315,6 +318,9 @@
   border-radius: 50px !important;
   padding: 5px 20px !important;
   font-size: 16px !important;
+  background-color: $green;
+  color: $green;
+  border-color: $green;
 }
 
 .rowTopRight {
@@ -399,7 +405,7 @@
 }
 
 .buttonHeader:hover {
-  color: $blue-dark;
+  color: $green-dark;
 }
 
 .buttonGroupItem {
@@ -425,9 +431,9 @@
 }
 
 .buttonGroupItem:hover {
-  border: 1.5px solid #0074e5;
+  border: 1.5px solid #12CC7E;
 }
 
 .buttonGroupItem:hover .textButton {
-  color: $blue !important;
+  color: $green !important;
 }

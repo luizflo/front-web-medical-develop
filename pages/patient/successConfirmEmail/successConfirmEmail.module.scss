@@ -116,14 +116,14 @@
   padding-inline: 20px;
   border-radius: 8px;
   width: 85%;
-  border: 1px solid $blue;
+  border: 1px solid $green;
   font-size: 16px;
   color: $black;
 }
 
 .inputCupom:focus {
   outline: none !important;
-  border: 2px solid $blue !important;
+  border: 2px solid $green !important;
 }
 
 .inputCupom::placeholder {
@@ -149,7 +149,7 @@
 
 .forgotPassword {
   font-size: 14px;
-  color: $blue;
+  color: $green;
   margin-bottom: 0px !important;
   margin-top: 8px;
   font-weight: 600;
@@ -216,14 +216,14 @@
 
 .link {
   font-size: 20px;
-  color: $blue;
+  color: $green;
   margin-left: 2px;
 }
 
 .linkTerms {
   font-size: 12px;
   margin-top: 18px;
-  color: $blue;
+  color: $green;
   margin-left: 2px;
 }
 
@@ -241,7 +241,7 @@
 .linkLogin {
   font-size: 14px;
   margin-top: 18px;
-  color: $blue;
+  color: $green;
   margin-left: 2px;
 }
 
@@ -284,7 +284,7 @@
   border-radius: 50%;
   padding: 10px;
   font-size: 14px;
-  background-color: $blue;
+  background-color: $green;
   width: fit-content;
 }
 
@@ -293,7 +293,7 @@
   border-radius: 50px;
   padding: 5px 20px;
   font-size: 14px;
-  background-color: $blue;
+  background-color: $green;
   width: fit-content;
 }
 

@@ -72,7 +72,7 @@
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  color: $blue;
+  color: $green;
   margin: 0 !important;
   margin-top: 10px !important;
 }
@@ -103,7 +103,7 @@
 .buttonConfirm {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   align-items: center;
   cursor: pointer;
   padding-block: 10px;
@@ -113,7 +113,7 @@
 .buttonSchedule {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding: 10px;
   width: fit-content;
@@ -136,7 +136,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  color: $blue;
+  color: $green;
   margin: 0 !important;
 }
 
@@ -225,7 +225,7 @@
 .buttonEventList {
   display: flex;
   border-radius: 8px;
-  background-color: $blue;
+  background-color: $green;
   cursor: pointer;
   padding-block: 10px;
   padding-inline: 15px;
@@ -237,10 +237,10 @@
 .buttonEventListConfirmed {
   display: flex;
   border-radius: 8px;
-  // background-color: $blue;
+  // background-color: $green;
   cursor: pointer;
   font-size: 12px;
-  color: $blue;
+  color: $green;
   font-weight: 600;
 }
 .buttonEventListConfirmed:hover {
@@ -304,15 +304,15 @@
 .buttonDialog {
   padding-inline: 50px;
   padding-block: 10px;
-  background-color: $blue;
+  background-color: $green;
   border-radius: 8px;
   color: white;
   text-transform: none;
   font-size: 18px !important;
 }
 .buttonDialog:hover {
-  background-color: $blue;
-  color: $blue-light;
+  background-color: $green;
+  color: $green-light;
   box-shadow: 0px 0px 6px 1px #d3d3d3;
 }
 .select {
