@@ -18,6 +18,10 @@ class WebAppDocument extends Document {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;300;400;700;900&display=swap"
         />
+        <script
+          src="https://apis.google.com/js/api.js"
+          type="text/javascript"
+        ></script>
         <body>
           <Main />
           <NextScript />

@@ -18,7 +18,7 @@ import {
 } from "@mui/icons-material";
 import Image from "next/image";
 import Resume from "src/components/patients/components/resume";
-import Logo from "public/hauseyLogo.svg";
+import Logo from "public/logo_black.png";
 import CheckIcon from "public/checkIcon.png";
 import Celebration from "public/celebration.png";
 import { getPlans, getPrograms } from "src/api/programs";
@@ -162,7 +162,7 @@ export default function Welcome() {
             alignItems: "center",
           }}
         >
-          <Logo className={styles.logo} />
+          <Image src={Logo} className={styles.logo} />
         </Grid>
         <Grid
           item

@@ -8,7 +8,7 @@ import {
   RemoveRedEye,
   VisibilityOff,
 } from "@mui/icons-material";
-import Logo from "../../../../public/hauseyLogo.svg";
+import Logo from "../../../../public/logo_black.png";
 import arrow from "../../../../public/arrow.png";
 import HeaderNavigation from "@components/booking/header";
 

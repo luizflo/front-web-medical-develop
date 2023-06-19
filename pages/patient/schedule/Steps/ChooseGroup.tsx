@@ -17,7 +17,8 @@ import { AppState } from "src/store";
 import { UserState } from "src/store/user/types";
 import { getSlots, getSpecialties } from "src/api/appointment";
 import { ISpecialties, ISpecialty } from "src/interfaces";
-import LogoHausey from "public/hauseyLogo.svg";
+import LogoHausey from "public/logo_black.png";
+import Image from "next/image";
 import HeaderNavigation from "@components/booking/header";
 
 export default function ChooseGroup({
@@ -81,7 +82,7 @@ export default function ChooseGroup({
             className={styles.buttonHeader}
             onClick={() => returnStep()}
           />
-          <LogoHausey className={styles.logo} />
+          <Image src={LogoHausey} className={styles.logo} />
           <Close
             sx={{
               color: "#0074E5",

@@ -30,12 +30,11 @@ export default function recoverPassword() {
       <Grid
         xs={6}
         item
-        style={{ backgroundColor: 'white' }}
+        style={{ backgroundColor: "white" }}
         className={styles.content}
       >
         <div className={styles.row}>
-          <img src="../hauseyLogo.svg" className={styles.logo} />
-
+          <img src="../logo_black.png" className={styles.logo} />
         </div>
         <Grid className={styles.iconReturn}>
           <img src="../return.png" />
@@ -47,5 +46,5 @@ export default function recoverPassword() {
         {/* <Image alt="no-alt" src={BackGround} /> */}
       </Grid>
     </Grid>
-  )
+  );
 }

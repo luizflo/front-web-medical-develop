@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../createAccount.module.scss";
 import { Button, Grid, Typography } from "@mui/material";
 import { RemoveRedEye, VisibilityOff } from "@mui/icons-material";
-import Logo from "../../../../public/hauseyLogo.svg";
+import Logo from "../../../../public/logo_black.png";
 import Done from "../../../../public/done.png";
 import Image from "next/image";
 import Link from "next/link";

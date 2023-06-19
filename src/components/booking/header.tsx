@@ -34,7 +34,7 @@ export default function HeaderNavigation({ widthProgress, goBack }: any) {
           className={styles.buttonHeader}
           onClick={() => goBack()}
         />
-        <Image src="/icon.svg" className={styles.logo} width={40} height={40} />
+        <Image src="/icon.png" className={styles.logo} width={40} height={40} />
         <Close
           sx={{
             color: "#FFFF",

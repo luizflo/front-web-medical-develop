@@ -8,7 +8,7 @@ import {
 import { useForm } from 'react-hook-form';
 import { ArrowBackIos, Close, RemoveRedEye, VisibilityOff } from '@mui/icons-material'
 import Image from 'next/image';
-import Logo from '../../../../public/hauseyLogo.svg'
+import Logo from "../../../../public/logo_black.png";
 import arrow from '../../../../public/arrow.png'
 
 

@@ -7,7 +7,7 @@ export default function ConfirmEmail() {
   return (
     <Grid className={styles.rowCollumn}>
       <div className={styles.row}>
-        <img src="/hauseyLogo.svg" className={styles.logo} />
+        <img src="/logo_black.png" className={styles.logo} />
       </div>
 
       <img src="/done.png" />
@@ -31,5 +31,5 @@ export default function ConfirmEmail() {
         </Typography>
       </Grid>
     </Grid>
-  )
+  );
 }

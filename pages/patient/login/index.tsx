@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../../public/hauseyLogo.svg";
+import Logo from "../../../public/logo_black.png";
 import { RemoveRedEye, VisibilityOff, Google } from "@mui/icons-material";
 import DoctorIcon from "@public/images/icons/doctor.svg";
 import SecretaryIcon from "@public/images/icons/secretary.svg";
@@ -101,7 +101,7 @@ export default function Login() {
         className={isSmallScreen ? styles.contentMobile : styles.content}
       >
         <div className={isSmallScreen ? "" : styles.row}>
-          <Logo className={styles.logo} />
+          <Image src={Logo} className={styles.logo} />
           {/* <div
             style={{
               display: isSmallScreen ? "block" : "flex",

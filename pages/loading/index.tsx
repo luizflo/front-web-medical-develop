@@ -28,7 +28,7 @@ export default function Loading({ onClick }: any) {
   // }
   return (
     <Box className={styles.content}>
-      <Logo />
+      <Image src={Logo} />
       <CircularProgress color="primary" sx={{ marginTop: 5 }} />
     </Box>
   );

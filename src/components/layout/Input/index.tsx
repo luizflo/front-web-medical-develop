@@ -11,7 +11,7 @@ import {
   Checkbox,
 } from '@mui/material'
 import InputMask from 'react-input-mask'
-// import Logo from '../../public/hauseyLogo.svg'
+// import Logo from '../../public/logo_black.png'
 import { Box } from '@mui/system'
 import CreditCard from '@public/images/checkout/creditCard.svg'
 import CVV from '@public/images/checkout/cvv.svg'

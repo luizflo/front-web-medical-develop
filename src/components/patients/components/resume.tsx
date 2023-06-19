@@ -17,7 +17,7 @@ import {
   AddCircleOutlineRounded,
 } from '@mui/icons-material'
 // import { Program } from '../index'
-// import Logo from '../../public/hauseyLogo.svg'
+// import Logo from '../../public/logo_black.png'
 import { Box } from '@mui/system'
 import { IPlan } from "src/interfaces";
 interface ItemPlans {

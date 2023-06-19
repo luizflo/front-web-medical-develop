@@ -16,7 +16,7 @@ import {
   Check,
   AddCircleOutlineRounded,
 } from '@mui/icons-material'
-// import Logo from '../../public/hauseyLogo.svg'
+// import Logo from '../../public/logo_black.png'
 import { Box } from '@mui/system'
 import Input from '@components/layout/Input'
 import { Control } from "react-hook-form";

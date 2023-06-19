@@ -7,7 +7,7 @@ import {
 } from '@mui/material'
 import { RemoveRedEye, VisibilityOff } from '@mui/icons-material'
 import Image from 'next/image'
-import Logo from '../../../../public/hauseyLogo.svg'
+import Logo from "../../../../public/logo_black.png";
 import Done from '../../../../public/done.png'
 
 

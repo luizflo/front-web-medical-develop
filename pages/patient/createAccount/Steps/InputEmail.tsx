@@ -16,7 +16,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import GoogleIcon from "../../../../public/GoogleLogo.svg";
-import Logo from "../../../../public/icon.svg";
+import Logo from "../../../../public/icon.png";
 import { useForm, Controller } from "react-hook-form";
 import { useFormik, Formik, Field, ErrorMessage, Form } from "formik";
 import * as yup from "yup";

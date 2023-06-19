@@ -19,7 +19,7 @@ import {
 } from "@mui/icons-material";
 import Image from "next/image";
 import Resume from "src/components/patients/components/resume";
-import Logo from "public/hauseyLogo.svg";
+import Logo from "public/logo_black.png";
 import CheckIcon from "public/checkIcon.png";
 import Celebration from "public/celebration.png";
 import { getPlans, getPrograms } from "src/api/programs";
@@ -28,7 +28,7 @@ import { AppState } from "src/store";
 import { UserState } from "src/store/user/types";
 import { useSelector } from "react-redux";
 import { ICard } from "src/interfaces/stripe";
-import LogoHausey from "public/hauseyLogo.svg";
+import LogoHausey from "public/logo_black.png";
 
 export interface Program {
   id: string;
@@ -112,7 +112,7 @@ export default function EmergencyAppointment({ returnStep, onClick }: Props) {
             className={stylesAppointment.buttonHeader}
             onClick={() => returnStep()}
           />
-          <LogoHausey className={stylesAppointment.logo} />
+          <Image src={LogoHausey} className={stylesAppointment.logo} />
           <Close
             sx={{
               color: "#0074E5",

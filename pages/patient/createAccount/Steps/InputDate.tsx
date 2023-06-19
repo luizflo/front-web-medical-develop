@@ -12,7 +12,7 @@ import InputMask from "react-input-mask";
 import Image from "next/image";
 import "react-datepicker/dist/react-datepicker.css";
 import iconCalendary from "../../../../public/iconCalendary.svg";
-import Logo from "../../../../public/hauseyLogo.svg";
+import Logo from "../../../../public/logo_black.png";
 import arrow from "../../../../public/arrow.png";
 import { useRouter } from "next/router";
 import HeaderNavigation from "@components/booking/header";

@@ -14,7 +14,7 @@ import {
   RemoveRedEye,
   VisibilityOff,
 } from "@mui/icons-material";
-import Logo from "../../../../public/hauseyLogo.svg";
+import Logo from "../../../../public/logo_black.png";
 import { sexType } from "src/interfaces";
 
 import genderMars from "../../../../public/genderMars.png";
@@ -55,7 +55,7 @@ export default function InputGender({
             className={styles.buttonHeader}
             onClick={() => goBack()}
           />
-          <Logo className={styles.logo} />
+          <Image src={Logo} className={styles.logo} />
           <Close
             sx={{
               color: "#0074E5",

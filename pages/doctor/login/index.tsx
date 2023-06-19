@@ -11,45 +11,45 @@ import {
   AlertProps,
 } from '@mui/material'
 import Image from 'next/image'
-import Logo from '../../../public/hauseyLogo.svg'
-import { RemoveRedEye, VisibilityOff, Google } from '@mui/icons-material'
-import GoogleIcon from '../../../public/GoogleLogo.svg'
-import PatientIcon from '@public/images/icons/user.svg'
-import SecretaryIcon from '@public/images/icons/secretary.svg'
-import { useDispatch } from 'react-redux'
-import { postLogin } from 'src/api/auth'
-import { useForm } from 'react-hook-form'
-import { Action, Dispatch, ActionCreator } from 'redux'
-import { ActionTypes, UserState } from 'src/store/user/types'
-import { AppState } from 'src/store'
-import FeedBack from '@components/layout/feedback'
+import Logo from "../../../public/logo_black.png";
+import { RemoveRedEye, VisibilityOff, Google } from "@mui/icons-material";
+import GoogleIcon from "../../../public/GoogleLogo.svg";
+import PatientIcon from "@public/images/icons/user.svg";
+import SecretaryIcon from "@public/images/icons/secretary.svg";
+import { useDispatch } from "react-redux";
+import { postLogin } from "src/api/auth";
+import { useForm } from "react-hook-form";
+import { Action, Dispatch, ActionCreator } from "redux";
+import { ActionTypes, UserState } from "src/store/user/types";
+import { AppState } from "src/store";
+import FeedBack from "@components/layout/feedback";
 
-import { ILoginData } from 'src/interfaces'
+import { ILoginData } from "src/interfaces";
 
 export default function Login() {
-  const [passWordVisible, setPassWordVisible] = useState<any>(false)
-  const [isLoading, setIsLoading] = useState<any>(false)
-  const [feedBack, setFeedback] = useState<string>('')
-  const [feedbackIsOpen, setFeedbackIsOpen] = useState<boolean>(false)
-  const [feedbackType, setFeedBackType] = useState<AlertProps['severity']>()
-  const { mutate: login } = useLogin()
-  const router = useRouter()
-  const { register, handleSubmit } = useForm()
-  const dispatch = useDispatch()
+  const [passWordVisible, setPassWordVisible] = useState<any>(false);
+  const [isLoading, setIsLoading] = useState<any>(false);
+  const [feedBack, setFeedback] = useState<string>("");
+  const [feedbackIsOpen, setFeedbackIsOpen] = useState<boolean>(false);
+  const [feedbackType, setFeedBackType] = useState<AlertProps["severity"]>();
+  const { mutate: login } = useLogin();
+  const router = useRouter();
+  const { register, handleSubmit } = useForm();
+  const dispatch = useDispatch();
 
   async function sendLogin(data) {
-    setIsLoading(true)
+    setIsLoading(true);
     const dataBody: ILoginData = {
       email: data.email,
       password: data.password,
-      role: 'professional',
-    }
-    const response = await postLogin(dataBody)
+      role: "professional",
+    };
+    const response = await postLogin(dataBody);
     if (response.status) {
-      setFeedBackType('error')
-      setFeedbackIsOpen(true)
-      setFeedback(response.message)
-      setIsLoading(false)
+      setFeedBackType("error");
+      setFeedbackIsOpen(true);
+      setFeedback(response.message);
+      setIsLoading(false);
     } else {
       dispatch({
         type: ActionTypes.AUTHENTICATION_PROFESSIONAL_SUCCESS,
@@ -57,18 +57,18 @@ export default function Login() {
         role: "professional",
         userLogged: response?.professional,
       });
-      localStorage.setItem('@logged:user-token', response?.accessToken)
-      setIsLoading(false)
+      localStorage.setItem("@logged:user-token", response?.accessToken);
+      setIsLoading(false);
       let body = {
         token: response?.accessToken,
-        route: '/home-doctor',
-      }
-      login(body)
+        route: "/home-doctor",
+      };
+      login(body);
     }
   }
   const handleClose = () => {
-    setFeedbackIsOpen(false)
-  }
+    setFeedbackIsOpen(false);
+  };
 
   return (
     <Grid container className={styles.container}>
@@ -85,7 +85,7 @@ export default function Login() {
         style={{ backgroundColor: "white" }}
         className={styles.content}
       >
-        <Logo className={styles.logo} />
+        <Image src={Logo} className={styles.logo} />
         {/* <div className={styles.row}>
           <Image alt="no-alt" src={Logo} className={styles.logo} />
           <Typography className={styles.subtitle}>

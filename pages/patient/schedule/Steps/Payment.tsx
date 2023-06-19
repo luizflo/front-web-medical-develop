@@ -18,7 +18,7 @@ import { useForm } from "react-hook-form";
 import { IAppointmentPost, ISpecialties } from "src/interfaces";
 import { postAppointment } from "src/api/appointment";
 import { ArrowBackIos, Close } from "@mui/icons-material";
-import LogoHausey from "public/hauseyLogo.svg";
+import LogoHausey from "public/logo_black.png";
 import QRCodePix from "public/images/qrCodePix.png";
 import QRCodeWpp from "public/images/qrCodeWpp.png";
 import CreditCard from "@public/images/checkout/creditCard.svg";
@@ -140,7 +140,7 @@ export default function Payment({
             className={styles.buttonHeader}
             onClick={() => returnStep()}
           />
-          <LogoHausey className={styles.logo} />
+          <Image src={LogoHausey} className={styles.logo} />
           <Close
             sx={{
               color: "#0074E5",

@@ -16,7 +16,7 @@ import {
   ArrowForwardIos,
   Check,
 } from '@mui/icons-material'
-// import Logo from '../../public/hauseyLogo.svg'
+// import Logo from '../../public/logo_black.png'
 import { Box } from '@mui/system'
 
 export default function ChoosePlan({ onClick }: any) {

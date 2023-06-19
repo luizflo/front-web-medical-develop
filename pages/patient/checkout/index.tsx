@@ -3,7 +3,7 @@ import styles from './checkout.module.scss'
 import { useRouter } from 'next/router'
 import { Container, Grid, MenuItem, Select, Typography } from '@mui/material'
 import { ArrowBackIos, Close, ArrowForwardIos } from '@mui/icons-material'
-import Logo from '../../../public/hauseyLogo.svg'
+import Logo from "../../../public/logo_black.png";
 import { Box } from '@mui/system'
 import ChooseTime from './components/ChooseTime'
 

@@ -21,9 +21,9 @@ export const Title: React.FC<TitleProps> = ({ collapsed }) => {
       >
         <Link href="/">
           {collapsed ? (
-            <Image src="/hauseyLogoSmall.png" alt="Refine" width={28} />
+            <Image src="/icon.png" alt="Refine" width={28} />
           ) : (
-            <Logo alt="logo" width="90px" height="50px" />
+            <Image src={Logo} alt="logo" width="90px" height="50px" />
           )}
         </Link>
       </Button>

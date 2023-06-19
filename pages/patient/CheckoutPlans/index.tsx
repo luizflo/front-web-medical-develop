@@ -12,7 +12,7 @@ import ChoosePlan from "src/components/patients/components/choosePlan";
 import Resume from "src/components/patients/components/resume";
 import Payment from "src/components/patients/components/payment";
 import Success from "src/components/patients/components/Success";
-import Logo from "public/hauseyLogo.svg";
+import Logo from "public/logo_black.png";
 import { getPlans, getPrograms } from "src/api/programs";
 import { FeedBackProps, IPlan, IProgram } from "src/interfaces";
 import FeedBack from "@components/layout/feedback";
@@ -197,7 +197,7 @@ export default function checkoutPlans({ stepProps }: any) {
           className={styles.arrowBack}
           onClick={() => backStep()}
         />
-        <Logo className={styles.logo} />
+        <Image src={Logo} className={styles.logo} />
         <Close sx={{ color: "#ffff" }} fontSize="large" />
       </Grid>
       <Grid container className={styles.container}>

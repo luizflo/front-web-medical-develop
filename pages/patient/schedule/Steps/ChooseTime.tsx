@@ -13,7 +13,7 @@ import Image from "next/image";
 import { ArrowBackIos, ArrowForwardIos, Close } from "@mui/icons-material";
 import { getSlots, setProfessional } from "src/api/appointment";
 import { ISlots } from "src/interfaces/appointment";
-import LogoHausey from "public/hauseyLogo.svg";
+import LogoHausey from "public/logo_black.png";
 import user from "public/placeholderAvatar.png";
 import { ISlot, ISpecialties, SlotsArr } from "src/interfaces";
 import { formatDateForSlots } from "@components/utils";
@@ -74,7 +74,7 @@ export default function ChooseTime({
             className={styles.buttonHeader}
             onClick={() => returnStep()}
           />
-          <LogoHausey className={styles.logo} />
+          <Image src={LogoHausey} className={styles.logo} />
           <Close
             sx={{
               color: "#0074E5",

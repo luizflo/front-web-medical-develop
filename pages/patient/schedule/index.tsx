@@ -13,7 +13,7 @@ import { ArrowBackIos, Close, ArrowForwardIos } from "@mui/icons-material";
 import ChooseSpeciality from "./Steps/ChooseSpeciality";
 import ChooseGroup from "./Steps/ChooseGroup";
 import ChooseTime from "./Steps/ChooseTime";
-import LogoHausey from "public/hauseyLogo.svg";
+import LogoHausey from "public/logo_black.png";
 import ChoosePayment from "./Steps/ChoosePayment";
 import Payment from "./Steps/Payment";
 import Success from "./Steps/Success";

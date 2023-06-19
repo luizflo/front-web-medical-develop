@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "../../../../pages/patient/CheckoutPlans/checkout.module.scss";
 import { useRouter } from "next/router";
 import { Grid, Typography, Checkbox } from "@mui/material";
-// import Logo from '../../public/hauseyLogo.svg'
+// import Logo from '../../public/logo_black.png'
 import { Box } from "@mui/system";
 import { IPlan, IProgram } from "src/interfaces";
 

@@ -16,9 +16,10 @@ import { AppState } from "src/store";
 import { UserState } from "src/store/user/types";
 import { getSlots, getSpecialties } from "src/api/appointment";
 import { ISlot, ISpecialties, ISpecialty, SlotsArr } from "src/interfaces";
-import LogoHausey from "public/hauseyLogo.svg";
+import LogoHausey from "public/logo_black.png";
 import { formatDate, formatDateToSlots } from "@components/utils";
 import HeaderNavigation from "@components/booking/header";
+import Image from "next/image";
 
 export default function ChooseSpeciality({
   onClick,
@@ -124,7 +125,7 @@ export default function ChooseSpeciality({
             className={styles.buttonHeader}
             onClick={() => returnStep()}
           />
-          <LogoHausey className={styles.logo} />
+          <Image src={LogoHausey} className={styles.logo} />
           <Close
             sx={{
               color: "#0074E5",

@@ -10,44 +10,44 @@ import {
   AlertProps,
 } from '@mui/material'
 import Image from 'next/image'
-import Logo from '../../../public/hauseyLogo.svg'
-import { useForm } from 'react-hook-form'
-import { useLogin } from '@pankod/refine-core'
-import { RemoveRedEye, VisibilityOff, Google } from '@mui/icons-material'
-import GoogleIcon from '../../../public/GoogleLogo.svg'
-import DoctorIcon from '@public/images/icons/doctor.svg'
-import PatientIcon from '@public/images/icons/user.svg'
-import { ILoginData } from 'src/interfaces'
-import { useDispatch } from 'react-redux'
-import { postLogin } from 'src/api/auth'
-import { ActionTypes } from 'src/store/user/types'
-import FeedBack from '@components/layout/feedback'
+import Logo from "../../../public/logo_black.png";
+import { useForm } from "react-hook-form";
+import { useLogin } from "@pankod/refine-core";
+import { RemoveRedEye, VisibilityOff, Google } from "@mui/icons-material";
+import GoogleIcon from "../../../public/GoogleLogo.svg";
+import DoctorIcon from "@public/images/icons/doctor.svg";
+import PatientIcon from "@public/images/icons/user.svg";
+import { ILoginData } from "src/interfaces";
+import { useDispatch } from "react-redux";
+import { postLogin } from "src/api/auth";
+import { ActionTypes } from "src/store/user/types";
+import FeedBack from "@components/layout/feedback";
 
 export default function login() {
-  const router = useRouter()
-  const [passWordVisible, setPassWordVisible] = useState<any>(false)
-  const [feedBack, setFeedback] = useState<string>('')
-  const [feedbackIsOpen, setFeedbackIsOpen] = useState<boolean>(false)
-  const [feedbackType, setFeedBackType] = useState<AlertProps['severity']>()
-  const [isLoading, setIsLoading] = useState<any>(false)
-  const { register, handleSubmit } = useForm()
-  const { mutate: login } = useLogin()
+  const router = useRouter();
+  const [passWordVisible, setPassWordVisible] = useState<any>(false);
+  const [feedBack, setFeedback] = useState<string>("");
+  const [feedbackIsOpen, setFeedbackIsOpen] = useState<boolean>(false);
+  const [feedbackType, setFeedBackType] = useState<AlertProps["severity"]>();
+  const [isLoading, setIsLoading] = useState<any>(false);
+  const { register, handleSubmit } = useForm();
+  const { mutate: login } = useLogin();
 
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   async function sendLogin(data) {
-    setIsLoading(true)
+    setIsLoading(true);
     const dataBody: ILoginData = {
       email: data.email,
       password: data.password,
-      role: 'manager',
-    }
-    const response = await postLogin(dataBody)
+      role: "manager",
+    };
+    const response = await postLogin(dataBody);
     if (response.status) {
-      setFeedBackType('error')
-      setFeedbackIsOpen(true)
-      setFeedback(response.message)
-      setIsLoading(false)
+      setFeedBackType("error");
+      setFeedbackIsOpen(true);
+      setFeedback(response.message);
+      setIsLoading(false);
     } else {
       dispatch({
         type: ActionTypes.AUTHENTICATION_MANAGER_SUCCESS,
@@ -55,18 +55,18 @@ export default function login() {
         role: "manager",
         userLogged: response?.patient,
       });
-      localStorage.setItem('@logged:user-token', response?.accessToken)
-      setIsLoading(false)
+      localStorage.setItem("@logged:user-token", response?.accessToken);
+      setIsLoading(false);
       let body = {
         token: response?.accessToken,
-        route: '/home-manager',
-      }
-      login(body)
+        route: "/home-manager",
+      };
+      login(body);
     }
   }
   const handleClose = () => {
-    setFeedbackIsOpen(false)
-  }
+    setFeedbackIsOpen(false);
+  };
 
   return (
     <Grid container className={styles.container}>
@@ -84,7 +84,7 @@ export default function login() {
         className={styles.content}
       >
         <div className={styles.row}>
-          <Logo className={styles.logo} />
+          <Image src={Logo} className={styles.logo} />
         </div>
         <Typography className={styles.title}>
           Faça login para começar
