@@ -26,7 +26,7 @@
   padding-bottom: 15px;
 }
 .textBlue {
-  color: $green;
+  color: $main-color;
 }
 .textGrey {
   color: $grey;
@@ -82,12 +82,12 @@
   transition: all .2s ease-in-out;
 }
 .boxProgram:hover {
-  border: 2px solid $green;
+  border: 2px solid $main-color;
   transform: scale(0.98);
 }
 .tag {
-  background-color: $green-light;
-  color: $green;
+  background-color: $main-color-light;
+  color: $main-color;
   border-radius: 15px;
   padding-inline: 10px;
   max-width: 40%;
@@ -99,5 +99,5 @@
   color: $grey;
 }
 .textJump:hover {
-  color: $green;
+  color: $main-color;
 }

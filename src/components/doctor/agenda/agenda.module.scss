@@ -75,7 +75,7 @@
   font-weight: 700 !important;
   font-size: 18px !important;
   text-align: center !important;
-  color: $green !important;
+  color: $main-color !important;
   margin: 0 !important;
   margin-top: 10px !important;
 }
@@ -106,7 +106,7 @@
 .buttonConfirm {
   display: flex !important;
   border-radius: 8px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
   align-items: center !important;
   cursor: pointer !important;
   padding-block: 10px !important;
@@ -116,7 +116,7 @@
 .buttonSchedule {
   display: flex !important;
   border-radius: 8px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
   cursor: pointer !important;
   padding: 10px !important;
   width: fit-content !important;
@@ -139,7 +139,7 @@
   font-style: normal !important;
   font-weight: 600 !important;
   font-size: 16px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin: 0 !important;
 }
 
@@ -234,7 +234,7 @@
 .buttonEventList {
   display: flex !important;
   border-radius: 8px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
   cursor: pointer !important;
   padding: 10px !important;
   width: fit-content !important;
@@ -295,15 +295,15 @@
 .buttonDialog {
   padding-inline: 50px !important;
   padding-block: 10px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
   border-radius: 8px !important;
   color: white !important;
   font-size: 18px !important;
 }
 
 .buttonDialog:hover {
-  background-color: $green !important;
-  color: $green-light !important;
+  background-color: $main-color !important;
+  color: $main-color-light !important;
   box-shadow: 0px 0px 6px 1px #d3d3d3 !important;
 }
 

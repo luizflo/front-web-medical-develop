@@ -16,7 +16,7 @@
 }
 
 .buttonHeader:hover {
-  color: $green-dark;
+  color: $main-color-dark;
 }
 .progressDiv {
   width: 100% !important;
@@ -26,5 +26,5 @@
 
 .progressBar {
   height: 4px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
 }

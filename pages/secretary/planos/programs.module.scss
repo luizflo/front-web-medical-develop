@@ -86,7 +86,7 @@
 }
 
 .callout {
-  background-color: $green-light;
+  background-color: $main-color-light;
   margin-top: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -100,7 +100,7 @@
   height: 70px;
   width: 70px;
   border-radius: 35px;
-  background-color: $green;
+  background-color: $main-color;
   align-items: center;
   justify-content: center;
   margin-top: 60px;
@@ -191,7 +191,7 @@
 
 .attachButton {
   font-size: 16px;
-  color: $green;
+  color: $main-color;
   font-weight: 600;
 }
 
@@ -222,7 +222,7 @@
 .buttonConfirm {
   display: flex;
   border-radius: 8px;
-  background-color: $green;
+  background-color: $main-color;
   align-items: center;
   padding-block: 20px;
   justify-content: center;
@@ -250,7 +250,7 @@
 }
 
 .link {
-  color: $green;
+  color: $main-color;
   font-size: 15px;
 }
 

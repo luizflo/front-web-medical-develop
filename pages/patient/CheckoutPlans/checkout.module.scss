@@ -26,7 +26,7 @@
   padding-bottom: 15px;
 }
 .textBlue {
-  color: $green;
+  color: $main-color;
 }
 .textGrey {
   color: $grey;
@@ -95,7 +95,7 @@
   padding-block: 24px;
   margin-bottom: 20px;
   cursor: pointer;
-  border: 2px solid $green;
+  border: 2px solid $main-color;
 }
 
 .button {
@@ -120,7 +120,7 @@
 .cardTag {
   font-size: 12px;
   font-weight: 700;
-  background-color: $green;
+  background-color: $main-color;
   padding-inline: 20px !important;
   color: $white;
   padding-block: 1px;
@@ -160,7 +160,7 @@
 
 .expandText {
   font-size: 14px;
-  color: $green;
+  color: $main-color;
   font-weight: 700;
   margin-bottom: 0px !important;
 }

@@ -116,14 +116,14 @@
   padding-inline: 20px !important;
   border-radius: 8px !important;
   width: 85% !important;
-  border: 1px solid $green !important;
+  border: 1px solid $main-color !important;
   font-size: 16px !important;
   color: $black !important;
 }
 
 .inputCupom:focus {
   outline: none !important;
-  border: 2px solid $green !important;
+  border: 2px solid $main-color !important;
 }
 
 .inputCupom::placeholder {
@@ -149,7 +149,7 @@
 
 .forgotPassword {
   font-size: 14px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin-bottom: 0px !important;
   margin-top: 8px !important;
   font-weight: 600 !important;
@@ -216,14 +216,14 @@
 
 .link {
   font-size: 20px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin-left: 2px !important;
 }
 
 .linkTerms {
   font-size: 12px !important;
   margin-top: 18px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin-left: 2px !important;
 }
 
@@ -241,7 +241,7 @@
 .linkLogin {
   font-size: 14px !important;
   margin-top: 18px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin-left: 2px !important;
 }
 
@@ -284,7 +284,7 @@
   border-radius: 50% !important;
   padding: 10px !important;
   font-size: 14px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
   width: fit-content !important;
 }
 
@@ -293,7 +293,7 @@
   border-radius: 50px !important;
   padding: 5px 20px !important;
   font-size: 14px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
   width: fit-content !important;
 }
 
@@ -313,7 +313,7 @@
 .progressBar {
   width: 30% !important;
   height: 4px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
 }
 
 .header {

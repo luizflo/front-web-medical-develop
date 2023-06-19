@@ -127,18 +127,18 @@
   border-radius: 8px !important;
   margin-top: 20px !important;
   width: 100% !important;
-  border: 1px solid $green !important;
+  border: 1px solid $main-color !important;
   font-size: 16px !important;
   color: $black !important;
 }
 .inputBlue:focus {
   outline: none !important;
-  border: 2px solid $green !important;
+  border: 2px solid $main-color !important;
 }
 
 .inputCupom:focus {
   outline: none !important;
-  border: 2px solid $green !important;
+  border: 2px solid $main-color !important;
 }
 
 .inputCupom::placeholder {
@@ -165,7 +165,7 @@
 
 .forgotPassword {
   font-size: 14px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin-bottom: 0px !important;
   margin-top: 8px !important;
   font-weight: 600 !important;
@@ -233,14 +233,14 @@
 
 .link {
   font-size: 20px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin-left: 2px !important;
 }
 
 .linkTerms {
   font-size: 12px !important;
   margin-top: 18px !important;
-  color: $green !important;
+  color: $main-color !important;
   margin-left: 5px !important;
 }
 
@@ -258,7 +258,7 @@
 
 .linkLogin {
   margin-top: 20px !important;
-  color: $green !important;
+  color: $main-color !important;
   padding-left: 6px !important;
   font-size: 12px !important;
 }
@@ -290,7 +290,7 @@
   padding: 14px 100px !important;
   border-radius: 8px !important;
   font-size: 20px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
   color: $white !important;
 }
 
@@ -306,11 +306,11 @@
   border-radius: 50% !important;
   padding: 10px !important;
   font-size: 14px !important;
-  // background-color: $green !important;
+  // background-color: $main-color !important;
   width: fit-content !important;
-  background-color: $green;
-  color: $green;
-  border-color: $green;
+  background-color: $main-color;
+  color: $main-color;
+  border-color: $main-color;
 }
 
 .buttonRounded {
@@ -318,9 +318,9 @@
   border-radius: 50px !important;
   padding: 5px 20px !important;
   font-size: 16px !important;
-  background-color: $green;
-  color: $green;
-  border-color: $green;
+  background-color: $main-color;
+  color: $main-color;
+  border-color: $main-color;
 }
 
 .rowTopRight {
@@ -338,7 +338,7 @@
 
 .progressBar {
   height: 4px !important;
-  background-color: $green !important;
+  background-color: $main-color !important;
 }
 
 .header {
@@ -405,7 +405,7 @@
 }
 
 .buttonHeader:hover {
-  color: $green-dark;
+  color: $main-color-dark;
 }
 
 .buttonGroupItem {
@@ -435,5 +435,5 @@
 }
 
 .buttonGroupItem:hover .textButton {
-  color: $green !important;
+  color: $main-color !important;
 }

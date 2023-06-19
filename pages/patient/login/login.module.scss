@@ -79,7 +79,7 @@
 
 .inputCupom:focus {
   outline: none !important;
-  border: 2px solid $green !important;
+  border: 2px solid $main-color !important;
 }
 
 .inputCupom::placeholder {
@@ -105,7 +105,7 @@
 
 .forgotPassword {
   font-size: 14px !important;
-  color: $green;
+  color: $main-color;
   margin-bottom: 0px !important;
   margin-top: 8px !important;
   font-weight: 600;
@@ -125,7 +125,7 @@
   border-radius: 8px;
   border-width: 1.5px;
   font-size: 14px !important;
-  color: $green;
+  color: $main-color;
   font-weight: 700;
   align-items: center;
   text-transform: none;

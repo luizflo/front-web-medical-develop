@@ -32,7 +32,7 @@
   padding-bottom: 15px;
 }
 .textBlue {
-  color: $green;
+  color: $main-color;
 }
 
 .gridContent {
@@ -70,7 +70,7 @@
 .progressBar {
   width: 30%;
   height: 4px;
-  background-color: $green;
+  background-color: $main-color;
 }
 
 .title {
@@ -107,7 +107,7 @@
 }
 
 .callout {
-  background-color: $green-light;
+  background-color: $main-color-light;
   margin-top: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -122,7 +122,7 @@
   width: 70px;
   border-radius: 35px;
   cursor: pointer;
-  background-color: $green;
+  background-color: $main-color;
   align-items: center;
   justify-content: center;
   margin-top: 60px;
@@ -162,7 +162,7 @@
 
 .attachButton {
   font-size: 16px;
-  color: $green;
+  color: $main-color;
   font-weight: 600;
 }
 
@@ -193,7 +193,7 @@
 .buttonConfirm {
   display: flex;
   border-radius: 8px;
-  background-color: $green;
+  background-color: $main-color;
   align-items: center;
   cursor: pointer;
   padding-block: 20px;

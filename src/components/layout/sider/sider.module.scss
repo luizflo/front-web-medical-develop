@@ -70,7 +70,7 @@
 .buttonBlue {
   display: flex;
   border-radius: 8px;
-  background-color: $green;
+  background-color: $main-color;
   cursor: pointer;
   padding: 10px;
   margin-top: 20px;
@@ -88,7 +88,7 @@
 
 .textButtonConfirm:hover,
 .buttonBlue:hover {
-  background-color: $green-dark;
+  background-color: $main-color-dark;
 }
 
 .txtPlan {
