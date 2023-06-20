@@ -189,7 +189,7 @@ export default function Details({
             variant="text"
             LinkComponent={"a"}
             target="_blank"
-            href={`https://wa.me/554396030042`}
+            href={`https://wa.me/554398824-2838`}
             style={{
               fontSize: "14px",
             }}
@@ -340,5 +340,3 @@ export default function Details({
     </Box>
   );
 }
-
-
