@@ -253,7 +253,9 @@ export default function ChoosePayment({
             </Box>
           ))}
 
-          <div className={styles.rowTerms}>
+          <div className={styles.padding} />
+
+          {/* <div className={styles.rowTerms}>
             <Typography variant="body1" className={styles.textTerms}>
               Ao clicar em Confirmar consulta você estará de acordo com nossas
             </Typography>
@@ -261,11 +263,11 @@ export default function ChoosePayment({
             <a
               className={styles.linkTerms}
               target={"_blank"}
-              href="https://www.hausey.com.br/politicas-de-cancelamento-e-atraso.pdf"
+              href="https://www.reforcemed.com.br/demo/termos-de-uso.pdf"
             >
-              Políticas de cancelamento e reagendamento.
+              termos.
             </a>
-          </div>
+          </div> */}
 
           <a className={styles.buttonConfirm} onClick={() => onClick()}>
             <Typography variant="body2" className={styles.textButtonConfirm}>
