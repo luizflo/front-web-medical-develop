@@ -18,6 +18,7 @@ import user from "public/placeholderAvatar.png";
 import { ISlot, ISpecialties, SlotsArr } from "src/interfaces";
 import { formatDateForSlots } from "@components/utils";
 import HeaderNavigation from "@components/booking/header";
+import { wrap } from "module";
 
 type ChooseTimeProps = {
   onClick: () => void;
@@ -217,8 +218,8 @@ export default function ChooseTime({
                               key={index}
                               sx={{
                                 display: "flex",
-                                flexDirection: "column",
                                 overflow: "hidden",
+                                flexDirection: "column",
                                 // alignItems: "center",
                               }}
                             >
@@ -241,7 +242,7 @@ export default function ChooseTime({
                               <Box
                                 sx={{
                                   overflow: "hidden",
-                                  width: "80%",
+                                  width: "50%",
                                 }}
                               >
                                 <Box

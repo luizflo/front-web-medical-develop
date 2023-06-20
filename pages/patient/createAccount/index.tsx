@@ -19,7 +19,7 @@ import { AppState } from "src/store";
 import { useRouter } from "next/router";
 
 export default function CreateAccount() {
-  const [step, setStep] = useState<number>(1);
+  const [step, setStep] = useState<number>(2);
   const [feedBack, setFeedback] = useState<string>("");
   const [feedbackIsOpen, setFeedbackIsOpen] = useState<boolean>(false);
   const [feedbackType, setFeedBackType] = useState<AlertProps["severity"]>();

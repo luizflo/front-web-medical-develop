@@ -154,7 +154,8 @@ export default function ChooseGroup({
           >
             <Checkbox checked={checked} onClick={() => setChecked(!checked)} />
             <Typography className={styles.textNotification}>
-              Estou de acordo em receber atendimento por teleconsulta.
+              Estou de acordo em receber comunicações a respeito do meu
+              agendamento.
             </Typography>
           </Box>
           {/* <Box className={styles.callout}>

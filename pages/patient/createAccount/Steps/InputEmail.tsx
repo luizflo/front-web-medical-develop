@@ -248,7 +248,7 @@ export default function InputEmail({ handlerClick, goBack }: any) {
                 <a
                   className={styles.linkTerms}
                   target={"_blank"}
-                  href="https://www.hausey.com.br/politicas-de-privacidade.pdf"
+                  href="https://www.reforcemed.com.br/demo/politicas-de-privacidade.pdf"
                 >
                   Políticas de Privacidade
                 </a>{" "}
@@ -256,7 +256,7 @@ export default function InputEmail({ handlerClick, goBack }: any) {
                 <a
                   className={styles.linkTerms}
                   target={"_blank"}
-                  href="https://www.hausey.com.br/termos-de-uso.pdf"
+                  href="https://www.reforcemed.com.br/demo/termos-de-uso.pdf"
                 >
                   Termos de Uso.
                 </a>
