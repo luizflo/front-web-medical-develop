@@ -199,9 +199,9 @@ export default function ChoosePayment({
             style={{ marginTop: 40 }}
             onClick={() => handleClickOpen()}
           >
-            Ver preparação da consulta
+            Ver Recomendações
           </Typography>
-          <div className={styles.line} />
+          {/* <div className={styles.line} />
           <Typography
             variant="h3"
             fontWeight={"medium"}
@@ -251,21 +251,21 @@ export default function ChoosePayment({
                 </Typography>
               </div>
             </Box>
-          ))}
+          ))} */}
 
           <div className={styles.padding} />
 
           {/* <div className={styles.rowTerms}>
             <Typography variant="body1" className={styles.textTerms}>
-              Ao clicar em Confirmar consulta você estará de acordo com nossas
+              Ao clicar em Confirmar consulta você estará de acordo com nossos
             </Typography>
 
             <a
               className={styles.linkTerms}
               target={"_blank"}
-              href="https://www.reforcemed.com.br/demo/termos-de-uso.pdf"
+              href="https://www.hausey.com.br/politicas-de-cancelamento-e-atraso.pdf"
             >
-              termos.
+              Políticas de cancelamento e reagendamento.
             </a>
           </div> */}
 

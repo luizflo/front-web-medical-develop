@@ -181,7 +181,7 @@ export default function schedule({ stepProps, slotsApi, specialtyId }: any) {
       case 4:
         return (
           <ChoosePayment
-            onClick={() => setStep(step + 2)}
+            onClick={() => setStep(7)}
             returnStep={() => setStep(step - 1)}
             selectedHour={selectedHour}
             selectedDate={selectedDate}
