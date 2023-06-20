@@ -1,15 +1,16 @@
 // @ts-nocheck
-import React, { useEffect, useLayoutEffect, useState } from 'react'
-import styles from './login.module.scss'
-import { Router, useRouter } from 'next/router'
+import React, { useEffect, useLayoutEffect, useState } from "react";
+import styles from "./login.module.scss";
+import { Router, useRouter } from "next/router";
 import {
   Button,
   Grid,
   Typography,
   CircularProgress,
   AlertProps,
-} from '@mui/material'
-import Image from 'next/image'
+  SupportAgent,
+} from "@mui/material";
+import Image from "next/image";
 import Logo from "../../../public/logo_black.png";
 import { useForm } from "react-hook-form";
 import { useLogin } from "@pankod/refine-core";
@@ -89,7 +90,7 @@ export default function login() {
         <Typography className={styles.title}>
           Faça login para começar
         </Typography>
-        <Button
+        {/* <Button
           variant="outlined"
           startIcon={<DoctorIcon />}
           className={styles.loginGoogleButton}
@@ -108,9 +109,9 @@ export default function login() {
           <span style={{ marginBottom: "0px !important", fontSize: 16 }}>
             Entrar como paciente
           </span>
-        </Button>
-        <div className={styles.line} />
-        <div className={styles.line} />
+        </Button> */}
+        {/* <div className={styles.line} />
+        <div className={styles.line} /> */}
         <form
           autoComplete="off"
           onSubmit={handleSubmit(sendLogin)}
@@ -159,6 +160,19 @@ export default function login() {
             // onClick={() => sendLogin()}
           >
             {isLoading ? <CircularProgress color="inherit" /> : "Entrar"}
+          </Button>
+          <Button
+            variant="text"
+            LinkComponent={"a"}
+            target="_blank"
+            href={`https://wa.me/554398824-2838`}
+            style={{
+              fontSize: "14px",
+              color: "inherit",
+            }}
+            onClick={() => {}}
+          >
+            Entrar em contato com o suporte
           </Button>
         </form>
       </Grid>
