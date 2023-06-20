@@ -8,6 +8,7 @@ import logo_black from "public/logo_black.png";
 import Lottie from "lottie-react";
 import SuccessAnimation from "public/successAnimation.json";
 import appointmentSuccess from "public/appointmentSuccess.png";
+import ReforceMedLogo from "public/ReforceMedLogo.png";
 // import { gapi } from "gapi-script";
 import ApiCalendar from "react-google-calendar-api";
 import { promises } from "fs";
@@ -112,6 +113,22 @@ export default function Success() {
         >
           Voltar para o site da clínica
         </Button>
+        <div className={styles.rowPowerby}>
+          <Typography
+            variant="h4"
+            className={styles.fontInstructions}
+            sx={{ maxWidth: isSmallScreen ? "90vw" : "50vw" }}
+          >
+            Power by
+          </Typography>
+          <Image
+            src={ReforceMedLogo}
+            width={93.5}
+            height={22.5}
+            style={{ paddingLeft: 5 }}
+          />
+        </div>
+
         {/* <Button
           variant="contained"
           disableElevation
