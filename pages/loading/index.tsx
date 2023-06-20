@@ -8,7 +8,7 @@ import {
   Box,
   useMediaQuery,
 } from "@mui/material";
-import Logo from "public/LogoDefault.svg";
+import Logo from "public/logo_black.png";
 import Image from "next/image";
 import { useAuthenticated, usePermissions } from "@pankod/refine-core";
 import { parseCookies } from "nookies";
@@ -24,7 +24,7 @@ export default function Loading({ onClick }: any) {
 
   router.push("/patient/createAccount");
   // if (isSmallScreen) {
-  //   window.location.replace("https://hausey.net/index.php/app/");
+  //   window.location.replace("https://ReforceMed.net/index.php/app/");
   // }
   return (
     <Box className={styles.content}>

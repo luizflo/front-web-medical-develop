@@ -98,7 +98,7 @@ export default function Success() {
         >
           No card do agendamento na Tela inicial você pode ver todos os detalhes
           da sua consulta, anexar exames e acompanhar o status do agendamento no
-          sistema. Obrigado por usar a Hausey!
+          sistema. Obrigado por usar nossa plataforma!
         </Typography>
         <Button
           variant="contained"

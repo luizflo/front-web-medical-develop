@@ -28,7 +28,6 @@ import { AppState } from "src/store";
 import { UserState } from "src/store/user/types";
 import { useSelector } from "react-redux";
 import { ICard } from "src/interfaces/stripe";
-import LogoHausey from "public/logo_black.png";
 
 export interface Program {
   id: string;
@@ -112,7 +111,7 @@ export default function EmergencyAppointment({ returnStep, onClick }: Props) {
             className={stylesAppointment.buttonHeader}
             onClick={() => returnStep()}
           />
-          <Image src={LogoHausey} className={stylesAppointment.logo} />
+          <Image src={Logo} className={stylesAppointment.logo} />
           <Close
             sx={{
               color: "#0074E5",
@@ -159,7 +158,7 @@ export default function EmergencyAppointment({ returnStep, onClick }: Props) {
               fontWeight={"bold"}
               className={styles.centralTitle}
             >
-              Pronto atendimento Hausey
+              Pronto atendimento
             </Typography>
           </Box>
           <Typography
@@ -197,9 +196,9 @@ export default function EmergencyAppointment({ returnStep, onClick }: Props) {
               fontWeight={"light"}
               sx={{ marginTop: "10px", maxWidth: "90%" }}
             >
-              O Pronto Atendimento Hausey é feito para você que precisa de um
-              atendimento rápido, de onde estiver. Com ele você tem todo o
-              conforto do Teleatendimento, com a qualidade Hausey.
+              O Pronto Atendimento ReforceMed é feito para você que precisa de
+              um atendimento rápido, de onde estiver. Com ele você tem todo o
+              conforto do Teleatendimento, com a qualidade ReforceMed.
             </Typography>
             <Box sx={{ display: "flex" }}>
               <Box sx={{ marginTop: "20px" }}>

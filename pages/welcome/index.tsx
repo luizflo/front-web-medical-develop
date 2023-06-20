@@ -205,7 +205,7 @@ export default function Welcome() {
               fontWeight={"bold"}
               className={styles.centralTitle}
             >
-              Seja bem vindo(a) a Hausey!
+              Seja bem vindo(a)!
             </Typography>
             <Image
               src={Celebration}
@@ -242,7 +242,7 @@ export default function Welcome() {
             >
               O que é o{" "}
               <span style={{ color: "#12CC7E", fontWeight: 700 }}>
-                Plano Hausey?
+                Plano ReforceMed?
               </span>
             </Typography>
             <Typography
@@ -339,7 +339,7 @@ export default function Welcome() {
               fontWeight={"bold"}
               sx={{ marginTop: "20px" }}
             >
-              Plano Hausey
+              Plano ReforceMed
             </Typography>
             <Typography
               variant="body2"
