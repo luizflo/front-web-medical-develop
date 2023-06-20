@@ -253,7 +253,7 @@ export default function Home({
           handleClick={() => console.log("Clicked")}
           first
           title="Avalie sua saúde gratuitamente"
-          body="Clique aqui para fazer uma avaliação inicial da sua saúde com a Hausey"
+          body="Clique aqui para fazer uma avaliação inicial da sua saúde"
           textAction=""
           CardIcon={AvaliationIcon}
         />

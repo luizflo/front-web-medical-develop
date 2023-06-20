@@ -64,9 +64,7 @@ export default function ModalOnboarding({
           alignItems: "center",
         }}
       >
-        <Typography>
-          Parabéns! Você concluiu o seu cadastro na Hausey
-        </Typography>
+        <Typography>Parabéns! Você concluiu o seu cadastro!</Typography>
         <TableContainer component={Paper}>
           <Table sx={{ minWidth: 450 }} aria-label="simple table">
             <TableHead>

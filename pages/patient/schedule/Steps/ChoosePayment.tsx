@@ -13,7 +13,7 @@ import IconCard from "public/creditCard.svg";
 import { getPrices } from "src/api/appointment";
 import { IPrices, ISpecialties } from "src/interfaces";
 import { ArrowBackIos, Close } from "@mui/icons-material";
-import LogoHausey from "public/logo_black.png";
+import Logo from "public/logo_black.png";
 import HeaderNavigation from "@components/booking/header";
 
 interface Methods {
@@ -94,7 +94,7 @@ export default function ChoosePayment({
             className={styles.buttonHeader}
             onClick={() => returnStep()}
           />
-          <Image src={LogoHausey} className={styles.logo} />
+          <Image src={Logo} className={styles.logo} />
           <Close
             sx={{
               color: "#0074E5",
@@ -253,7 +253,9 @@ export default function ChoosePayment({
             </Box>
           ))} */}
 
-          <div className={styles.rowTerms}>
+          <div className={styles.padding} />
+
+          {/* <div className={styles.rowTerms}>
             <Typography variant="body1" className={styles.textTerms}>
               Ao clicar em Confirmar consulta você estará de acordo com nossos
             </Typography>
@@ -261,11 +263,11 @@ export default function ChoosePayment({
             <a
               className={styles.linkTerms}
               target={"_blank"}
-              href="https://www.reforcemed.com.br/demo/termos-de-uso.pdf"
+              href="https://www.hausey.com.br/politicas-de-cancelamento-e-atraso.pdf"
             >
-              Termos de uso.
+              Políticas de cancelamento e reagendamento.
             </a>
-          </div>
+          </div> */}
 
           <a className={styles.buttonConfirm} onClick={() => onClick()}>
             <Typography variant="body2" className={styles.textButtonConfirm}>
