@@ -7,6 +7,7 @@ import Image from "next/image";
 import logo_black from "public/logo_black.png";
 import Lottie from "lottie-react";
 import SuccessAnimation from "public/successAnimation.json";
+import appointmentSuccess from "public/appointmentSuccess.png";
 // import { gapi } from "gapi-script";
 import ApiCalendar from "react-google-calendar-api";
 import { promises } from "fs";
@@ -77,12 +78,14 @@ export default function Success() {
       <Box className={styles.rowCollumn}>
         {/* <Grid className={styles.marginTop}></Grid> */}
         {/* <Image alt="no-alt" src={Done} /> */}
-
+        {/* 
         <Lottie
           animationData={SuccessAnimation}
           loop={false}
           style={{ height: 300 }}
-        />
+        /> */}
+        <div className={styles.padding} />
+        <Image src={appointmentSuccess} />
 
         <Typography
           variant="subtitle1"
@@ -96,9 +99,9 @@ export default function Success() {
           className={styles.fontInstructions}
           sx={{ maxWidth: isSmallScreen ? "90vw" : "50vw" }}
         >
-          No card do agendamento na Tela inicial você pode ver todos os detalhes
-          da sua consulta, anexar exames e acompanhar o status do agendamento no
-          sistema. Obrigado por usar nossa plataforma!
+          Você irá receber no e-mail cadastrado uma confirmação da consulta.
+          Acompanhe os lembretes e anote em sua agenda para não perder o
+          horário!
         </Typography>
         <Button
           variant="contained"
@@ -107,7 +110,7 @@ export default function Success() {
           className={styles.buttonSmall}
           onClick={() => router.replace("/home")}
         >
-          Ir para tela inicial
+          Voltar para o site da clínica
         </Button>
         {/* <Button
           variant="contained"
