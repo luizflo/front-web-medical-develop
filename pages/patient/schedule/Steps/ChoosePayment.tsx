@@ -13,7 +13,7 @@ import IconCard from "public/creditCard.svg";
 import { getPrices } from "src/api/appointment";
 import { IPrices, ISpecialties } from "src/interfaces";
 import { ArrowBackIos, Close } from "@mui/icons-material";
-import LogoHausey from "public/logo_black.png";
+import Logo from "public/logo_black.png";
 import HeaderNavigation from "@components/booking/header";
 
 interface Methods {
@@ -94,7 +94,7 @@ export default function ChoosePayment({
             className={styles.buttonHeader}
             onClick={() => returnStep()}
           />
-          <Image src={LogoHausey} className={styles.logo} />
+          <Image src={Logo} className={styles.logo} />
           <Close
             sx={{
               color: "#0074E5",

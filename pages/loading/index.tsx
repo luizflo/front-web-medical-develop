@@ -24,7 +24,7 @@ export default function Loading({ onClick }: any) {
 
   router.push("/patient/createAccount");
   // if (isSmallScreen) {
-  //   window.location.replace("https://hausey.net/index.php/app/");
+  //   window.location.replace("https://ReforceMed.net/index.php/app/");
   // }
   return (
     <Box className={styles.content}>
