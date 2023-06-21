@@ -263,7 +263,7 @@ export default function ChoosePayment({
             <a
               className={styles.linkTerms}
               target={"_blank"}
-              href="https://www.hausey.com.br/politicas-de-cancelamento-e-atraso.pdf"
+              href="https://www.reforcemed.com.br/termos-de-uso.pdf"
             >
               Políticas de cancelamento e reagendamento.
             </a>
