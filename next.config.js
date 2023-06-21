@@ -1,10 +1,10 @@
-const path = require('path')
+const path = require("path");
 
 module.exports = {
   reactStrictMode: false,
   trailingSlash: true,
   images: {
-    domains: ["www.github.com", "api.hausey.net"],
+    domains: ["www.github.com", "https://reforcemed.herokuapp.com/v1"],
   },
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
