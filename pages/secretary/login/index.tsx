@@ -161,20 +161,21 @@ export default function login() {
           >
             {isLoading ? <CircularProgress color="inherit" /> : "Entrar"}
           </Button>
-          <Button
-            variant="text"
-            LinkComponent={"a"}
-            target="_blank"
-            href={`https://wa.me/554398824-2838`}
-            style={{
-              fontSize: "14px",
-              color: "inherit",
-            }}
-            onClick={() => {}}
-          >
-            Entrar em contato com o suporte
-          </Button>
         </form>
+        <Button
+          variant="text"
+          LinkComponent={"a"}
+          target="_blank"
+          href={`https://wa.me/554398824-2838`}
+          style={{
+            marginTop: "20px",
+            fontSize: "12px",
+            color: "grey",
+          }}
+          onClick={() => {}}
+        >
+          Entrar em contato com o suporte
+        </Button>
       </Grid>
 
       <Grid md={6} xs={12} item className={styles.imgContainer}>

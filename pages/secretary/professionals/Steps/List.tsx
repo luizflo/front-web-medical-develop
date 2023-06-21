@@ -244,7 +244,7 @@ export default function List({
             CPF{" "}
           </Typography>
         </Grid>
-        <Grid
+        {/* <Grid
           item
           xs={2}
           style={{
@@ -254,7 +254,7 @@ export default function List({
           <Typography variant="h4" className={styles.textGrey}>
             Status da Memed{" "}
           </Typography>
-        </Grid>
+        </Grid> */}
       </Grid>
     );
   }
@@ -305,7 +305,7 @@ export default function List({
                   {item.document}
                 </Typography>
               </Grid>
-              <Grid
+              {/* <Grid
                 item
                 xs={2}
                 style={{
@@ -315,7 +315,7 @@ export default function List({
                 <Typography variant="h4" className={styles.textGrey}>
                   {item.memedStatus ? item.memedStatus : "Não cadastrado"}
                 </Typography>
-              </Grid>
+              </Grid> */}
               <Grid
                 item
                 xs={1}

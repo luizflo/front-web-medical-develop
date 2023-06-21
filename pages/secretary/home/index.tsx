@@ -242,7 +242,7 @@ export default function homeSecretary() {
   function Dashboard() {
     return (
       <Grid container className={styles.cardBlack}>
-        <Grid item xs={6} md={3} className={styles.row}>
+        <Grid item xs={6} md={4} className={styles.row}>
           <div className={styles.circleIcon}>
             <img
               src="../images/doctor/following.png"
@@ -271,7 +271,7 @@ export default function homeSecretary() {
           </div>
         </Grid>
 
-        <Grid item xs={6} md={3} className={styles.row}>
+        <Grid item xs={6} md={4} className={styles.row}>
           <Box className={styles.circleIcon}>
             <img
               src="../images/doctor/computer.png"
@@ -300,7 +300,7 @@ export default function homeSecretary() {
           </div>
         </Grid>
 
-        <Grid item xs={6} md={3} className={styles.row}>
+        <Grid item xs={6} md={4} className={styles.row}>
           <div className={styles.circleIcon}>
             <img
               src="../images/doctor/stethoscope.png"
@@ -329,14 +329,14 @@ export default function homeSecretary() {
           </div>
         </Grid>
 
-        <Grid item xs={6} md={3} className={styles.row}>
+        {/* <Grid item xs={6} md={3} className={styles.row}>
           <div className={styles.circleIcon}>
             <img
               src="../images/doctor/computer.png"
               className={styles.logoCalendar}
             />
           </div>
-          <div className={styles.space}>
+           <div className={styles.space}>
             <Typography
               variant="h4"
               fontWeight={"regular"}
@@ -355,8 +355,8 @@ export default function homeSecretary() {
                 {dashBoardData.plansSold}
               </Typography>
             )}
-          </div>
-        </Grid>
+          </div> 
+        </Grid> */}
       </Grid>
     );
   }
